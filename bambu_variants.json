@@ -4,120 +4,105 @@
     "color_name": "Orange",
     "material": "PLA Basic",
     "filament_code": "10300",
-    "spoolmandb_id": "bambulab_pla_orange_1000_175_n",
-    "color_hex": "FF6A13"
+    "spoolmandb_id": "bambulab_pla_orange_1000_175_n"
   },
   {
     "variant_id": "A00-A1",
     "color_name": "Pumpkin Orange",
     "material": "PLA Basic",
     "filament_code": "10301",
-    "spoolmandb_id": "bambulab_pla_pumpkinorange_1000_175_n",
-    "color_hex": "FF9016"
+    "spoolmandb_id": "bambulab_pla_pumpkinorange_1000_175_n"
   },
   {
     "variant_id": "A00-B1",
-    "color_name": "Blue Grey",
+    "color_name": "Blue Gray",
     "material": "PLA Basic",
     "filament_code": "10602",
-    "spoolmandb_id": "bambulab_pla_bluegray_1000_175_n",
-    "color_hex": "5B6579"
+    "spoolmandb_id": "bambulab_pla_bluegray_1000_175_n"
   },
   {
     "variant_id": "A00-B3",
     "color_name": "Cobalt Blue",
     "material": "PLA Basic",
     "filament_code": "10604",
-    "spoolmandb_id": "bambulab_pla_cobaltblue_1000_175_n",
-    "color_hex": "0056B8"
+    "spoolmandb_id": "bambulab_pla_cobaltblue_1000_175_n"
   },
   {
     "variant_id": "A00-B5",
     "color_name": "Turquoise",
     "material": "PLA Basic",
     "filament_code": "10605",
-    "spoolmandb_id": "bambulab_pla_turquoise_1000_175_n",
-    "color_hex": "00B1B7"
+    "spoolmandb_id": "bambulab_pla_turquoise_1000_175_n"
   },
   {
     "variant_id": "A00-B8",
     "color_name": "Cyan",
     "material": "PLA Basic",
     "filament_code": "10603",
-    "spoolmandb_id": "bambulab_pla_cyan_1000_175_n",
-    "color_hex": "0086D6"
+    "spoolmandb_id": "bambulab_pla_cyan_1000_175_n"
   },
   {
     "variant_id": "A00-D0",
     "color_name": "Gray",
     "material": "PLA Basic",
     "filament_code": "10103",
-    "spoolmandb_id": "bambulab_pla_gray_1000_175_n",
-    "color_hex": "8E9089"
+    "spoolmandb_id": "bambulab_pla_gray_1000_175_n"
   },
   {
     "variant_id": "A00-D1",
     "color_name": "Silver",
     "material": "PLA Basic",
     "filament_code": "10102",
-    "spoolmandb_id": "bambulab_pla_silver_1000_175_n",
-    "color_hex": "A6A9AA"
+    "spoolmandb_id": "bambulab_pla_silver_1000_175_n"
   },
   {
     "variant_id": "A00-D2",
     "color_name": "Light Gray",
     "material": "PLA Basic",
     "filament_code": "10104",
-    "spoolmandb_id": "bambulab_pla_lightgray_1000_175_n",
-    "color_hex": "D1D3D5"
+    "spoolmandb_id": "bambulab_pla_lightgray_1000_175_n"
   },
   {
     "variant_id": "A00-D3",
     "color_name": "Dark Gray",
     "material": "PLA Basic",
     "filament_code": "10105",
-    "spoolmandb_id": "bambulab_pla_darkgray_1000_175_n",
-    "color_hex": "545454"
+    "spoolmandb_id": "bambulab_pla_darkgray_1000_175_n"
   },
   {
     "variant_id": "A00-G1",
     "color_name": "Bambu Green",
     "material": "PLA Basic",
     "filament_code": "10501",
-    "spoolmandb_id": "bambulab_pla_bambugreen_1000_175_n",
-    "color_hex": "00AE42"
+    "spoolmandb_id": "bambulab_pla_bambugreen_1000_175_n"
   },
   {
     "variant_id": "A00-G2",
     "color_name": "Mistletoe Green",
     "material": "PLA Basic",
     "filament_code": "10502",
-    "spoolmandb_id": "bambulab_pla_mistletoegreen_1000_175_n",
-    "color_hex": "3F8E43"
+    "spoolmandb_id": "bambulab_pla_mistletoegreen_1000_175_n"
   },
   {
     "variant_id": "A00-G3",
     "color_name": "Bright Green",
     "material": "PLA Basic",
     "filament_code": "10503",
-    "spoolmandb_id": "bambulab_pla_brightgreen_1000_175_n",
-    "color_hex": "BECF00"
+    "spoolmandb_id": "bambulab_pla_brightgreen_1000_175_n"
   },
   {
     "variant_id": "A00-G6",
     "color_name": "Bambu Green",
     "material": "PLA Basic",
     "filament_code": "10501",
-    "spoolmandb_id": "bambulab_pla_bambugreen_1000_175_n",
-    "color_hex": "00AE42"
+    "spoolmandb_id": "bambulab_pla_bambugreen_1000_175_n"
   },
   {
     "variant_id": "A00-K0",
     "color_name": "Black",
     "material": "PLA Basic",
     "filament_code": "10101",
-    "spoolmandb_id": "bambulab_pla_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pla_black_1000_175_n"
   },
   {
     "variant_id": "A00-M0",
@@ -180,352 +165,308 @@
     "color_name": "Brown",
     "material": "PLA Basic",
     "filament_code": "10800",
-    "spoolmandb_id": "bambulab_pla_brown_1000_175_n",
-    "color_hex": "9D432C"
+    "spoolmandb_id": "bambulab_pla_brown_1000_175_n"
   },
   {
     "variant_id": "A00-N1",
     "color_name": "Cocoa Brown",
     "material": "PLA Basic",
     "filament_code": "10802",
-    "spoolmandb_id": "bambulab_pla_cocoabrown_1000_175_n",
-    "color_hex": "6F5034"
+    "spoolmandb_id": "bambulab_pla_cocoabrown_1000_175_n"
   },
   {
     "variant_id": "A00-P0",
     "color_name": "Beige",
     "material": "PLA Basic",
     "filament_code": "10201",
-    "spoolmandb_id": "bambulab_pla_beige_1000_175_n",
-    "color_hex": "F7E6DE"
+    "spoolmandb_id": "bambulab_pla_beige_1000_175_n"
   },
   {
     "variant_id": "A00-P2",
     "color_name": "Indigo Purple",
     "material": "PLA Basic",
     "filament_code": "10701",
-    "spoolmandb_id": "bambulab_pla_indigopurple_1000_175_n",
-    "color_hex": "482960"
+    "spoolmandb_id": "bambulab_pla_indigopurple_1000_175_n"
   },
   {
     "variant_id": "A00-P5",
     "color_name": "Purple",
     "material": "PLA Basic",
     "filament_code": "10700",
-    "spoolmandb_id": "bambulab_pla_purple_1000_175_n",
-    "color_hex": "5E43B7"
+    "spoolmandb_id": "bambulab_pla_purple_1000_175_n"
   },
   {
     "variant_id": "A00-P6",
     "color_name": "Magenta",
     "material": "PLA Basic",
     "filament_code": "10202",
-    "spoolmandb_id": "bambulab_pla_magenta_1000_175_n",
-    "color_hex": "EC008C"
+    "spoolmandb_id": "bambulab_pla_magenta_1000_175_n"
   },
   {
     "variant_id": "A00-R0",
     "color_name": "Red",
     "material": "PLA Basic",
     "filament_code": "10200",
-    "spoolmandb_id": "bambulab_pla_red_1000_175_n",
-    "color_hex": "C12E1F"
+    "spoolmandb_id": "bambulab_pla_red_1000_175_n"
   },
   {
     "variant_id": "A00-R2",
     "color_name": "Maroon Red",
     "material": "PLA Basic",
     "filament_code": "10205",
-    "spoolmandb_id": "bambulab_pla_maroonred_1000_175_n",
-    "color_hex": "9D2235"
+    "spoolmandb_id": "bambulab_pla_maroonred_1000_175_n"
   },
   {
     "variant_id": "A00-R3",
     "color_name": "Hot Pink",
     "material": "PLA Basic",
     "filament_code": "10204",
-    "spoolmandb_id": "bambulab_pla_hotpink_1000_175_n",
-    "color_hex": "F5547C"
+    "spoolmandb_id": "bambulab_pla_hotpink_1000_175_n"
   },
   {
     "variant_id": "A00-W1",
     "color_name": "Jade White",
     "material": "PLA Basic",
     "filament_code": "10100",
-    "spoolmandb_id": "bambulab_pla_jadewhite_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_jadewhite_1000_175_n"
   },
   {
     "variant_id": "A00-Y0",
     "color_name": "Yellow",
     "material": "PLA Basic",
     "filament_code": "10400",
-    "spoolmandb_id": "bambulab_pla_yellow_1000_175_n",
-    "color_hex": "F4EE2A"
+    "spoolmandb_id": "bambulab_pla_yellow_1000_175_n"
   },
   {
     "variant_id": "A00-Y2",
     "color_name": "Sunflower Yellow",
     "material": "PLA Basic",
     "filament_code": "10402",
-    "spoolmandb_id": "bambulab_pla_sunfloweryellow_1000_175_n",
-    "color_hex": "FEC600"
+    "spoolmandb_id": "bambulab_pla_sunfloweryellow_1000_175_n"
   },
   {
     "variant_id": "A00-Y3",
     "color_name": "Bronze",
     "material": "PLA Basic",
     "filament_code": "10801",
-    "spoolmandb_id": "bambulab_pla_bronze_1000_175_n",
-    "color_hex": "847D48"
+    "spoolmandb_id": "bambulab_pla_bronze_1000_175_n"
   },
   {
     "variant_id": "A00-Y4",
     "color_name": "Gold",
     "material": "PLA Basic",
     "filament_code": "10401",
-    "spoolmandb_id": "bambulab_pla_gold_1000_175_n",
-    "color_hex": "E4BD68"
+    "spoolmandb_id": "bambulab_pla_gold_1000_175_n"
   },
   {
     "variant_id": "A01-A2",
     "color_name": "Matte Mandarin Orange",
     "material": "PLA Matte",
     "filament_code": "11300",
-    "spoolmandb_id": "bambulab_pla_mattemandarinorange_1000_175_n",
-    "color_hex": "F99963"
+    "spoolmandb_id": "bambulab_pla_mattemandarinorange_1000_175_n"
   },
   {
     "variant_id": "A01-B0",
     "color_name": "Matte Sky Blue",
     "material": "PLA Matte",
     "filament_code": "11603",
-    "spoolmandb_id": "bambulab_pla_matteskyblue_1000_175_n",
-    "color_hex": "56B7E6"
+    "spoolmandb_id": "bambulab_pla_matteskyblue_1000_175_n"
   },
   {
     "variant_id": "A01-B3",
     "color_name": "Matte Marine Blue",
     "material": "PLA Matte",
     "filament_code": "11600",
-    "spoolmandb_id": "bambulab_pla_mattemarineblue_1000_175_n",
-    "color_hex": "0078BF"
+    "spoolmandb_id": "bambulab_pla_mattemarineblue_1000_175_n"
   },
   {
     "variant_id": "A01-B4",
     "color_name": "Matte Ice Blue",
     "material": "PLA Matte",
     "filament_code": "11601",
-    "spoolmandb_id": "bambulab_pla_matteiceblue_1000_175_n",
-    "color_hex": "A3D8E1"
+    "spoolmandb_id": "bambulab_pla_matteiceblue_1000_175_n"
   },
   {
     "variant_id": "A01-B6",
     "color_name": "Matte Dark Blue",
     "material": "PLA Matte",
     "filament_code": "11602",
-    "spoolmandb_id": "bambulab_pla_mattedarkblue_1000_175_n",
-    "color_hex": "042F56"
+    "spoolmandb_id": "bambulab_pla_mattedarkblue_1000_175_n"
   },
   {
     "variant_id": "A01-D0",
     "color_name": "Matte Nardo Gray",
     "material": "PLA Matte",
     "filament_code": "11104",
-    "spoolmandb_id": "bambulab_pla_mattenardogray_1000_175_n",
-    "color_hex": "757575"
+    "spoolmandb_id": "bambulab_pla_mattenardogray_1000_175_n"
   },
   {
     "variant_id": "A01-D3",
     "color_name": "Matte Ash Gray",
     "material": "PLA Matte",
     "filament_code": "11102",
-    "spoolmandb_id": "bambulab_pla_matteashgray_1000_175_n",
-    "color_hex": "9B9EA0"
+    "spoolmandb_id": "bambulab_pla_matteashgray_1000_175_n"
   },
   {
     "variant_id": "A01-G0",
     "color_name": "Matte Apple Green",
     "material": "PLA Matte",
     "filament_code": "11502",
-    "spoolmandb_id": "bambulab_pla_matteapplegreen_1000_175_n",
-    "color_hex": "C2E189"
+    "spoolmandb_id": "bambulab_pla_matteapplegreen_1000_175_n"
   },
   {
     "variant_id": "A01-G1",
     "color_name": "Matte Grass Green",
     "material": "PLA Matte",
     "filament_code": "11500",
-    "spoolmandb_id": "bambulab_pla_mattegrassgreen_1000_175_n",
-    "color_hex": "61C680"
+    "spoolmandb_id": "bambulab_pla_mattegrassgreen_1000_175_n"
   },
   {
     "variant_id": "A01-G7",
     "color_name": "Matte Dark Green",
     "material": "PLA Matte",
     "filament_code": "11501",
-    "spoolmandb_id": "bambulab_pla_mattedarkgreen_1000_175_n",
-    "color_hex": "68724D"
+    "spoolmandb_id": "bambulab_pla_mattedarkgreen_1000_175_n"
   },
   {
     "variant_id": "A01-K1",
     "color_name": "Matte Charcoal",
     "material": "PLA Matte",
     "filament_code": "11101",
-    "spoolmandb_id": "bambulab_pla_mattecharcoal_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pla_mattecharcoal_1000_175_n"
   },
   {
     "variant_id": "A01-N0",
     "color_name": "Matte Dark Chocolate",
     "material": "PLA Matte",
     "filament_code": "11802",
-    "spoolmandb_id": "bambulab_pla_mattedarkchocolate_1000_175_n",
-    "color_hex": "4D3324"
+    "spoolmandb_id": "bambulab_pla_mattedarkchocolate_1000_175_n"
   },
   {
     "variant_id": "A01-N1",
     "color_name": "Matte Latte Brown",
     "material": "PLA Matte",
     "filament_code": "11800",
-    "spoolmandb_id": "bambulab_pla_mattelattebrown_1000_175_n",
-    "color_hex": "D3B7A7"
+    "spoolmandb_id": "bambulab_pla_mattelattebrown_1000_175_n"
   },
   {
     "variant_id": "A01-N2",
     "color_name": "Matte Dark Brown",
     "material": "PLA Matte",
     "filament_code": "11801",
-    "spoolmandb_id": "bambulab_pla_mattedarkbrown_1000_175_n",
-    "color_hex": "7D6556"
+    "spoolmandb_id": "bambulab_pla_mattedarkbrown_1000_175_n"
   },
   {
     "variant_id": "A01-N3",
     "color_name": "Matte Caramel",
     "material": "PLA Matte",
     "filament_code": "11803",
-    "spoolmandb_id": "bambulab_pla_mattecaramel_1000_175_n",
-    "color_hex": "AE835B"
+    "spoolmandb_id": "bambulab_pla_mattecaramel_1000_175_n"
   },
   {
     "variant_id": "A01-P3",
     "color_name": "Matte Sakura Pink",
     "material": "PLA Matte",
     "filament_code": "11201",
-    "spoolmandb_id": "bambulab_pla_mattesakurapink_1000_175_n",
-    "color_hex": "E8AFCF"
+    "spoolmandb_id": "bambulab_pla_mattesakurapink_1000_175_n"
   },
   {
     "variant_id": "A01-P4",
     "color_name": "Matte Lilac Purple",
     "material": "PLA Matte",
     "filament_code": "11700",
-    "spoolmandb_id": "bambulab_pla_mattelilacpurple_1000_175_n",
-    "color_hex": "AE96D4"
+    "spoolmandb_id": "bambulab_pla_mattelilacpurple_1000_175_n"
   },
   {
     "variant_id": "A01-R1",
     "color_name": "Matte Scarlet Red",
     "material": "PLA Matte",
     "filament_code": "11200",
-    "spoolmandb_id": "bambulab_pla_mattescarletred_1000_175_n",
-    "color_hex": "DE4343"
+    "spoolmandb_id": "bambulab_pla_mattescarletred_1000_175_n"
   },
   {
     "variant_id": "A01-R2",
     "color_name": "Matte Terracotta",
     "material": "PLA Matte",
     "filament_code": "11203",
-    "spoolmandb_id": "bambulab_pla_matteterracotta_1000_175_n",
-    "color_hex": "B15533"
+    "spoolmandb_id": "bambulab_pla_matteterracotta_1000_175_n"
   },
   {
     "variant_id": "A01-R3",
     "color_name": "Matte Plum",
     "material": "PLA Matte",
     "filament_code": "11204",
-    "spoolmandb_id": "bambulab_pla_matteplum_1000_175_n",
-    "color_hex": "950051"
+    "spoolmandb_id": "bambulab_pla_matteplum_1000_175_n"
   },
   {
     "variant_id": "A01-R4",
     "color_name": "Matte Dark Red",
     "material": "PLA Matte",
     "filament_code": "11202",
-    "spoolmandb_id": "bambulab_pla_mattedarkred_1000_175_n",
-    "color_hex": "BB3D43"
+    "spoolmandb_id": "bambulab_pla_mattedarkred_1000_175_n"
   },
   {
     "variant_id": "A01-W2",
     "color_name": "Matte Ivory White",
     "material": "PLA Matte",
     "filament_code": "11100",
-    "spoolmandb_id": "bambulab_pla_matteivorywhite_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_matteivorywhite_1000_175_n"
   },
   {
     "variant_id": "A01-W3",
     "color_name": "Matte Bone White",
     "material": "PLA Matte",
     "filament_code": "11103",
-    "spoolmandb_id": "bambulab_pla_mattebonewhite_1000_175_n",
-    "color_hex": "CBC6B8"
+    "spoolmandb_id": "bambulab_pla_mattebonewhite_1000_175_n"
   },
   {
     "variant_id": "A01-Y2",
     "color_name": "Matte Lemon Yellow",
     "material": "PLA Matte",
     "filament_code": "11400",
-    "spoolmandb_id": "bambulab_pla_mattelemonyellow_1000_175_n",
-    "color_hex": "F7D959"
+    "spoolmandb_id": "bambulab_pla_mattelemonyellow_1000_175_n"
   },
   {
     "variant_id": "A01-Y3",
     "color_name": "Matte Desert Tan",
     "material": "PLA Matte",
     "filament_code": "11401",
-    "spoolmandb_id": "bambulab_pla_mattedeserttan_1000_175_n",
-    "color_hex": "E8DBB7"
+    "spoolmandb_id": "bambulab_pla_mattedeserttan_1000_175_n"
   },
   {
     "variant_id": "A02-B2",
     "color_name": "Cobalt Blue Metallic",
     "material": "PLA Metal",
     "filament_code": "13600",
-    "spoolmandb_id": "bambulab_pla_cobaltbluemetallic_1000_175_n",
-    "color_hex": "39699E"
+    "spoolmandb_id": "bambulab_pla_cobaltbluemetallic_1000_175_n"
   },
   {
     "variant_id": "A02-D2",
     "color_name": "Iron Gray Metallic",
     "material": "PLA Metal",
     "filament_code": "13100",
-    "spoolmandb_id": "bambulab_pla_irongraymetallic_1000_175_n",
-    "color_hex": "43403D"
+    "spoolmandb_id": "bambulab_pla_irongraymetallic_1000_175_n"
   },
   {
     "variant_id": "A02-G2",
     "color_name": "Oxide Green Metallic",
     "material": "PLA Metal",
     "filament_code": "13500",
-    "spoolmandb_id": "bambulab_pla_oxidegreenmetallic_1000_175_n",
-    "color_hex": "1D7C6A"
+    "spoolmandb_id": "bambulab_pla_oxidegreenmetallic_1000_175_n"
   },
   {
     "variant_id": "A02-N3",
     "color_name": "Copper Brown Metallic",
     "material": "PLA Metal",
     "filament_code": "13800",
-    "spoolmandb_id": "bambulab_pla_copperbrownmetallic_1000_175_n",
-    "color_hex": "AA6443"
+    "spoolmandb_id": "bambulab_pla_copperbrownmetallic_1000_175_n"
   },
   {
     "variant_id": "A02-Y1",
     "color_name": "Iridium Gold Metallic",
     "material": "PLA Metal",
     "filament_code": "13400",
-    "spoolmandb_id": "bambulab_pla_iridiumgoldmetallic_1000_175_n",
-    "color_hex": "B39B84"
+    "spoolmandb_id": "bambulab_pla_iridiumgoldmetallic_1000_175_n"
   },
   {
     "variant_id": "A05-M1",
@@ -536,7 +477,7 @@
   },
   {
     "variant_id": "A05-M4",
-    "color_name": "Aurora Purple",
+    "color_name": "Aurora Purple (Blue-Purple)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13909",
     "spoolmandb_id": "bambulab_pla_aurorapurple(blue-purple)_1000_175_n"
@@ -550,35 +491,35 @@
   },
   {
     "variant_id": "A05-T1",
-    "color_name": "Gilded Rose",
+    "color_name": "Gilded Rose (Pink-Gold)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13901",
     "spoolmandb_id": "bambulab_pla_gildedrose(pink-gold)_1000_175_n"
   },
   {
     "variant_id": "A05-T2",
-    "color_name": "Midnight Blaze",
+    "color_name": "Midnight Blaze (Blue-Red)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13902",
     "spoolmandb_id": "bambulab_pla_midnightblaze(blue-red)_1000_175_n"
   },
   {
     "variant_id": "A05-T3",
-    "color_name": "Neon City",
+    "color_name": "Neon City (Blue-Magenta)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13903",
     "spoolmandb_id": "bambulab_pla_neoncity(blue-magenta)_1000_175_n"
   },
   {
     "variant_id": "A05-T4",
-    "color_name": "Blue Hawaii",
+    "color_name": "Blue Hawaii (Blue-Green)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13904",
     "spoolmandb_id": "bambulab_pla_bluehawaii(blue-green)_1000_175_n"
   },
   {
     "variant_id": "A05-T5",
-    "color_name": "Velvet Eclipse",
+    "color_name": "Velvet Eclipse (Black-Red)",
     "material": "PLA Silk Multi-Color",
     "filament_code": "13905",
     "spoolmandb_id": "bambulab_pla_velveteclipse(black-red)_1000_175_n"
@@ -588,168 +529,147 @@
     "color_name": "Silk+ Baby Blue",
     "material": "PLA Silk+",
     "filament_code": "13603",
-    "spoolmandb_id": "bambulab_pla_silk+babyblue_1000_175_n",
-    "color_hex": "A8C6EE"
+    "spoolmandb_id": "bambulab_pla_silk+babyblue_1000_175_n"
   },
   {
     "variant_id": "A06-B1",
     "color_name": "Silk+ Blue",
     "material": "PLA Silk+",
     "filament_code": "13604",
-    "spoolmandb_id": "bambulab_pla_silk+blue_1000_175_n",
-    "color_hex": "008BDA"
+    "spoolmandb_id": "bambulab_pla_silk+blue_1000_175_n"
   },
   {
     "variant_id": "A06-D0",
     "color_name": "Silk+ Titan Gray",
     "material": "PLA Silk+",
     "filament_code": "13108",
-    "spoolmandb_id": "bambulab_pla_silk+titangray_1000_175_n",
-    "color_hex": "5F6367"
+    "spoolmandb_id": "bambulab_pla_silk+titangray_1000_175_n"
   },
   {
     "variant_id": "A06-D1",
     "color_name": "Silk+ Silver",
     "material": "PLA Silk+",
     "filament_code": "13109",
-    "spoolmandb_id": "bambulab_pla_silk+silver_1000_175_n",
-    "color_hex": "C8C8C8"
+    "spoolmandb_id": "bambulab_pla_silk+silver_1000_175_n"
   },
   {
     "variant_id": "A06-G0",
     "color_name": "Silk+ Candy Green",
     "material": "PLA Silk+",
     "filament_code": "13506",
-    "spoolmandb_id": "bambulab_pla_silk+candygreen_1000_175_n",
-    "color_hex": "018814"
+    "spoolmandb_id": "bambulab_pla_silk+candygreen_1000_175_n"
   },
   {
     "variant_id": "A06-G1",
     "color_name": "Silk+ Mint",
     "material": "PLA Silk+",
     "filament_code": "13507",
-    "spoolmandb_id": "bambulab_pla_silk+mint_1000_175_n",
-    "color_hex": "96DCB9"
+    "spoolmandb_id": "bambulab_pla_silk+mint_1000_175_n"
   },
   {
     "variant_id": "A06-P0",
     "color_name": "Silk+ Purple",
     "material": "PLA Silk+",
     "filament_code": "13702",
-    "spoolmandb_id": "bambulab_pla_silk+purple_1000_175_n",
-    "color_hex": "8671CB"
+    "spoolmandb_id": "bambulab_pla_silk+purple_1000_175_n"
   },
   {
     "variant_id": "A06-R0",
     "color_name": "Silk+ Candy Red",
     "material": "PLA Silk+",
     "filament_code": "13205",
-    "spoolmandb_id": "bambulab_pla_silk+candyred_1000_175_n",
-    "color_hex": "D02727"
+    "spoolmandb_id": "bambulab_pla_silk+candyred_1000_175_n"
   },
   {
     "variant_id": "A06-R1",
     "color_name": "Silk+ Rose Gold",
     "material": "PLA Silk+",
     "filament_code": "13206",
-    "spoolmandb_id": "bambulab_pla_silk+rosegold_1000_175_n",
-    "color_hex": "BA9594"
+    "spoolmandb_id": "bambulab_pla_silk+rosegold_1000_175_n"
   },
   {
     "variant_id": "A06-R2",
     "color_name": "Silk+ Pink",
     "material": "PLA Silk+",
     "filament_code": "13207",
-    "spoolmandb_id": "bambulab_pla_silk+pink_1000_175_n",
-    "color_hex": "F7ADA6"
+    "spoolmandb_id": "bambulab_pla_silk+pink_1000_175_n"
   },
   {
     "variant_id": "A06-W0",
     "color_name": "Silk+ White",
     "material": "PLA Silk+",
     "filament_code": "13110",
-    "spoolmandb_id": "bambulab_pla_silk+white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_silk+white_1000_175_n"
   },
   {
     "variant_id": "A06-Y0",
     "color_name": "Silk+ Champagne",
     "material": "PLA Silk+",
     "filament_code": "13404",
-    "spoolmandb_id": "bambulab_pla_silk+champagne_1000_175_n",
-    "color_hex": "F3CFB2"
+    "spoolmandb_id": "bambulab_pla_silk+champagne_1000_175_n"
   },
   {
     "variant_id": "A06-Y1",
     "color_name": "Silk+ Gold",
     "material": "PLA Silk+",
     "filament_code": "13405",
-    "spoolmandb_id": "bambulab_pla_silk+gold_1000_175_n",
-    "color_hex": "F4A925"
+    "spoolmandb_id": "bambulab_pla_silk+gold_1000_175_n"
   },
   {
     "variant_id": "A07-D4",
     "color_name": "White Marble",
     "material": "PLA Marble",
     "filament_code": "13103",
-    "spoolmandb_id": "bambulab_pla_whitemarble_1000_175_n",
-    "color_hex": "F7F3F0"
+    "spoolmandb_id": "bambulab_pla_whitemarble_1000_175_n"
   },
   {
     "variant_id": "A07-R5",
     "color_name": "Red Granite",
     "material": "PLA Marble",
     "filament_code": "13201",
-    "spoolmandb_id": "bambulab_pla_redgranite_1000_175_n",
-    "color_hex": "AD4E38"
+    "spoolmandb_id": "bambulab_pla_redgranite_1000_175_n"
   },
   {
     "variant_id": "A08-B7",
     "color_name": "Royal Purple Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13700",
-    "spoolmandb_id": "bambulab_pla_royalpurplesparkle_1000_175_n",
-    "color_hex": "483D8B"
+    "spoolmandb_id": "bambulab_pla_royalpurplesparkle_1000_175_n"
   },
   {
     "variant_id": "A08-D5",
     "color_name": "Slate Gray Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13102",
-    "spoolmandb_id": "bambulab_pla_slategraysparkle_1000_175_n",
-    "color_hex": "8E9089"
+    "spoolmandb_id": "bambulab_pla_slategraysparkle_1000_175_n"
   },
   {
     "variant_id": "A08-G3",
     "color_name": "Alpine Green Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13501",
-    "spoolmandb_id": "bambulab_pla_alpinegreensparkle_1000_175_n",
-    "color_hex": "3F5443"
+    "spoolmandb_id": "bambulab_pla_alpinegreensparkle_1000_175_n"
   },
   {
     "variant_id": "A08-K2",
     "color_name": "Onyx Black Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13101",
-    "spoolmandb_id": "bambulab_pla_onyxblacksparkle_1000_175_n",
-    "color_hex": "2D2B28"
+    "spoolmandb_id": "bambulab_pla_onyxblacksparkle_1000_175_n"
   },
   {
     "variant_id": "A08-R2",
     "color_name": "Crimson Red Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13200",
-    "spoolmandb_id": "bambulab_pla_crimsonredsparkle_1000_175_n",
-    "color_hex": "792B36"
+    "spoolmandb_id": "bambulab_pla_crimsonredsparkle_1000_175_n"
   },
   {
     "variant_id": "A08-Y1",
     "color_name": "Classic Gold Sparkle",
     "material": "PLA Sparkle",
     "filament_code": "13402",
-    "spoolmandb_id": "bambulab_pla_classicgoldsparkle_1000_175_n",
-    "color_hex": "CEA629"
+    "spoolmandb_id": "bambulab_pla_classicgoldsparkle_1000_175_n"
   },
   {
     "variant_id": "A09-A0",
@@ -763,8 +683,7 @@
     "color_name": "Blue",
     "material": "PLA Basic",
     "filament_code": "10601",
-    "spoolmandb_id": "bambulab_pla_blue_1000_175_n",
-    "color_hex": "0A2989"
+    "spoolmandb_id": "bambulab_pla_blue_1000_175_n"
   },
   {
     "variant_id": "A09-B5",
@@ -799,24 +718,21 @@
     "color_name": "Tough+ Gray",
     "material": "PLA Tough+",
     "filament_code": "12105",
-    "spoolmandb_id": "bambulab_pla_tough+gray_1000_175_n",
-    "color_hex": "AFB1AE"
+    "spoolmandb_id": "bambulab_pla_tough+gray_1000_175_n"
   },
   {
     "variant_id": "A10-K0",
     "color_name": "Tough+ Black",
     "material": "PLA Tough+",
     "filament_code": "12104",
-    "spoolmandb_id": "bambulab_pla_tough+black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pla_tough+black_1000_175_n"
   },
   {
     "variant_id": "A10-W0",
     "color_name": "Tough+ White",
     "material": "PLA Tough+",
     "filament_code": "12107",
-    "spoolmandb_id": "bambulab_pla_tough+white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_tough+white_1000_175_n"
   },
   {
     "variant_id": "A11-K0",
@@ -837,192 +753,168 @@
     "color_name": "Glow Orange",
     "material": "PLA Glow",
     "filament_code": "15300",
-    "spoolmandb_id": "bambulab_pla_gloworange_1000_175_n",
-    "color_hex": "FF9D5B"
+    "spoolmandb_id": "bambulab_pla_gloworange_1000_175_n"
   },
   {
     "variant_id": "A12-B0",
     "color_name": "Glow Blue",
     "material": "PLA Glow",
     "filament_code": "15600",
-    "spoolmandb_id": "bambulab_pla_glowblue_1000_175_n",
-    "color_hex": "7AC0E9"
+    "spoolmandb_id": "bambulab_pla_glowblue_1000_175_n"
   },
   {
     "variant_id": "A12-G0",
     "color_name": "Glow Green",
     "material": "PLA Glow",
     "filament_code": "15500",
-    "spoolmandb_id": "bambulab_pla_glowgreen_1000_175_n",
-    "color_hex": "A1FFAC"
+    "spoolmandb_id": "bambulab_pla_glowgreen_1000_175_n"
   },
   {
     "variant_id": "A12-R0",
     "color_name": "Glow Pink",
     "material": "PLA Glow",
     "filament_code": "15200",
-    "spoolmandb_id": "bambulab_pla_glowpink_1000_175_n",
-    "color_hex": "F17B8F"
+    "spoolmandb_id": "bambulab_pla_glowpink_1000_175_n"
   },
   {
     "variant_id": "A12-Y0",
     "color_name": "Glow Yellow",
     "material": "PLA Glow",
     "filament_code": "15400",
-    "spoolmandb_id": "bambulab_pla_glowyellow_1000_175_n",
-    "color_hex": "F8FF80"
+    "spoolmandb_id": "bambulab_pla_glowyellow_1000_175_n"
   },
   {
     "variant_id": "A15-B0",
     "color_name": "Purple Galaxy",
     "material": "PLA Galaxy",
     "filament_code": "13602",
-    "spoolmandb_id": "bambulab_pla_purplegalaxy_1000_175_n",
-    "color_hex": "594177"
+    "spoolmandb_id": "bambulab_pla_purplegalaxy_1000_175_n"
   },
   {
     "variant_id": "A15-G0",
     "color_name": "Green Galaxy",
     "material": "PLA Galaxy",
     "filament_code": "13503",
-    "spoolmandb_id": "bambulab_pla_greengalaxy_1000_175_n",
-    "color_hex": "3B665E"
+    "spoolmandb_id": "bambulab_pla_greengalaxy_1000_175_n"
   },
   {
     "variant_id": "A15-G1",
     "color_name": "Nebulae Galaxy",
     "material": "PLA Galaxy",
     "filament_code": "13504",
-    "spoolmandb_id": "bambulab_pla_nebulaegalaxy_1000_175_n",
-    "color_hex": "424379"
+    "spoolmandb_id": "bambulab_pla_nebulaegalaxy_1000_175_n"
   },
   {
     "variant_id": "A15-R0",
     "color_name": "Brown Galaxy",
     "material": "PLA Galaxy",
     "filament_code": "13203",
-    "spoolmandb_id": "bambulab_pla_browngalaxy_1000_175_n",
-    "color_hex": "684A43"
+    "spoolmandb_id": "bambulab_pla_browngalaxy_1000_175_n"
   },
   {
     "variant_id": "A16-G0",
     "color_name": "Classic Birch",
     "material": "PLA Wood",
     "filament_code": "13505",
-    "spoolmandb_id": "bambulab_pla+wood_classicbirch_1000_175_n",
-    "color_hex": "918669"
+    "spoolmandb_id": "bambulab_pla+wood_classicbirch_1000_175_n"
   },
   {
     "variant_id": "A16-K0",
     "color_name": "Black Walnut",
     "material": "PLA Wood",
     "filament_code": "13107",
-    "spoolmandb_id": "bambulab_pla+wood_blackwalnut_1000_175_n",
-    "color_hex": "4F3F24"
+    "spoolmandb_id": "bambulab_pla+wood_blackwalnut_1000_175_n"
   },
   {
     "variant_id": "A16-N0",
     "color_name": "Clay Brown",
     "material": "PLA Wood",
     "filament_code": "13801",
-    "spoolmandb_id": "bambulab_pla+wood_claybrown_1000_175_n",
-    "color_hex": "995F11"
+    "spoolmandb_id": "bambulab_pla+wood_claybrown_1000_175_n"
   },
   {
     "variant_id": "A16-R0",
     "color_name": "Rosewood",
     "material": "PLA Wood",
     "filament_code": "13204",
-    "spoolmandb_id": "bambulab_pla+wood_rosewood_1000_175_n",
-    "color_hex": "4C241C"
+    "spoolmandb_id": "bambulab_pla+wood_rosewood_1000_175_n"
   },
   {
     "variant_id": "A16-W0",
     "color_name": "White Oak",
     "material": "PLA Wood",
     "filament_code": "13106",
-    "spoolmandb_id": "bambulab_pla+wood_whiteoak_1000_175_n",
-    "color_hex": "D6CCA3"
+    "spoolmandb_id": "bambulab_pla+wood_whiteoak_1000_175_n"
   },
   {
     "variant_id": "A16-Y0",
     "color_name": "Ochre Yellow",
     "material": "PLA Wood",
     "filament_code": "13403",
-    "spoolmandb_id": "bambulab_pla+wood_ochreyellow_1000_175_n",
-    "color_hex": "C98935"
+    "spoolmandb_id": "bambulab_pla+wood_ochreyellow_1000_175_n"
   },
   {
     "variant_id": "A17-A0",
     "color_name": "Translucent Orange",
     "material": "PLA Translucent",
     "filament_code": "13301",
-    "spoolmandb_id": "bambulab_pla_translucentorange_1000_175_n",
-    "color_hex": "F74E02"
+    "spoolmandb_id": "bambulab_pla_translucentorange_1000_175_n"
   },
   {
     "variant_id": "A17-B0",
     "color_name": "Translucent Ice Blue",
     "material": "PLA Translucent",
     "filament_code": "13610",
-    "spoolmandb_id": "bambulab_pla_translucenticeblue_1000_175_n",
-    "color_hex": "B8CDE9"
+    "spoolmandb_id": "bambulab_pla_translucenticeblue_1000_175_n"
   },
   {
     "variant_id": "A17-B1",
     "color_name": "Translucent Blue",
     "material": "PLA Translucent",
     "filament_code": "13611",
-    "spoolmandb_id": "bambulab_pla_translucentblue_1000_175_n",
-    "color_hex": "0047BB"
+    "spoolmandb_id": "bambulab_pla_translucentblue_1000_175_n"
   },
   {
     "variant_id": "A17-G0",
     "color_name": "Translucent Light Jade",
     "material": "PLA Translucent",
     "filament_code": "13510",
-    "spoolmandb_id": "bambulab_pla_translucentlightjade_1000_175_n",
-    "color_hex": "96D8AF"
+    "spoolmandb_id": "bambulab_pla_translucentlightjade_1000_175_n"
   },
   {
     "variant_id": "A17-P0",
     "color_name": "Translucent Purple",
     "material": "PLA Translucent",
     "filament_code": "13710",
-    "spoolmandb_id": "bambulab_pla_translucentpurple_1000_175_n",
-    "color_hex": "8344B0"
+    "spoolmandb_id": "bambulab_pla_translucentpurple_1000_175_n"
   },
   {
     "variant_id": "A17-P1",
     "color_name": "Translucent Lavender",
     "material": "PLA Translucent",
     "filament_code": "13711",
-    "spoolmandb_id": "bambulab_pla_translucentlavender_1000_175_n",
-    "color_hex": "B8ACD6"
+    "spoolmandb_id": "bambulab_pla_translucentlavender_1000_175_n"
   },
   {
     "variant_id": "A17-R0",
     "color_name": "Translucent Red",
     "material": "PLA Translucent",
     "filament_code": "13210",
-    "spoolmandb_id": "bambulab_pla_translucentred_1000_175_n",
-    "color_hex": "B50011"
+    "spoolmandb_id": "bambulab_pla_translucentred_1000_175_n"
   },
   {
     "variant_id": "A17-R1",
     "color_name": "Translucent Cherry Pink",
     "material": "PLA Translucent",
     "filament_code": "13211",
-    "spoolmandb_id": "bambulab_pla_translucentcherrypink_1000_175_n",
-    "color_hex": "F5B6CD"
+    "spoolmandb_id": "bambulab_pla_translucentcherrypink_1000_175_n"
   },
   {
     "variant_id": "A17-Y0",
     "color_name": "Translucent Mellow Yellow",
     "material": "PLA Translucent",
     "filament_code": "13410",
-    "spoolmandb_id": "bambulab_pla_translucentmellowyellow_1000_175_n",
-    "color_hex": "F5DBAB"
+    "spoolmandb_id": "bambulab_pla_translucentmellowyellow_1000_175_n"
   },
   {
     "variant_id": "A18-B0",
@@ -1085,288 +977,252 @@
     "color_name": "Royal Blue",
     "material": "PLA-CF",
     "filament_code": "14601",
-    "spoolmandb_id": "bambulab_pla-cf_royalblue_1000_175_n",
-    "color_hex": "2842AD"
+    "spoolmandb_id": "bambulab_pla-cf_royalblue_1000_175_n"
   },
   {
     "variant_id": "A50-D6",
     "color_name": "Lava Gray",
     "material": "PLA-CF",
     "filament_code": "14101",
-    "spoolmandb_id": "bambulab_pla-cf_lavagray_1000_175_n",
-    "color_hex": "4d5054"
+    "spoolmandb_id": "bambulab_pla-cf_lavagray_1000_175_n"
   },
   {
     "variant_id": "A50-K0",
     "color_name": "Black",
     "material": "PLA-CF",
     "filament_code": "14100",
-    "spoolmandb_id": "bambulab_pla-cf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pla-cf_black_1000_175_n"
   },
   {
     "variant_id": "B00-A0",
     "color_name": "Orange",
     "material": "ABS",
     "filament_code": "40300",
-    "spoolmandb_id": "bambulab_abs_orange_1000_175_n",
-    "color_hex": "FF6A13"
+    "spoolmandb_id": "bambulab_abs_orange_1000_175_n"
   },
   {
     "variant_id": "B00-B0",
     "color_name": "Blue",
     "material": "ABS",
     "filament_code": "40600",
-    "spoolmandb_id": "bambulab_abs_blue_1000_175_n",
-    "color_hex": "0A2CA5"
+    "spoolmandb_id": "bambulab_abs_blue_1000_175_n"
   },
   {
     "variant_id": "B00-B4",
     "color_name": "Azure",
     "material": "ABS",
     "filament_code": "40601",
-    "spoolmandb_id": "bambulab_abs_azure_1000_175_n",
-    "color_hex": "489FDF"
+    "spoolmandb_id": "bambulab_abs_azure_1000_175_n"
   },
   {
     "variant_id": "B00-B6",
     "color_name": "Navy Blue",
     "material": "ABS",
     "filament_code": "40602",
-    "spoolmandb_id": "bambulab_abs_navyblue_1000_175_n",
-    "color_hex": "0C2340"
+    "spoolmandb_id": "bambulab_abs_navyblue_1000_175_n"
   },
   {
     "variant_id": "B00-D1",
     "color_name": "Silver",
     "material": "ABS",
     "filament_code": "40102",
-    "spoolmandb_id": "bambulab_abs_silver_1000_175_n",
-    "color_hex": "87909A"
+    "spoolmandb_id": "bambulab_abs_silver_1000_175_n"
   },
   {
     "variant_id": "B00-G6",
     "color_name": "Bambu Green",
     "material": "ABS",
     "filament_code": "40500",
-    "spoolmandb_id": "bambulab_abs_bambugreen_1000_175_n",
-    "color_hex": "00AE42"
+    "spoolmandb_id": "bambulab_abs_bambugreen_1000_175_n"
   },
   {
     "variant_id": "B00-G7",
     "color_name": "Olive",
     "material": "ABS",
     "filament_code": "40502",
-    "spoolmandb_id": "bambulab_abs_olive_1000_175_n",
-    "color_hex": "789D4A"
+    "spoolmandb_id": "bambulab_abs_olive_1000_175_n"
   },
   {
     "variant_id": "B00-K0",
     "color_name": "Black",
     "material": "ABS",
     "filament_code": "40101",
-    "spoolmandb_id": "bambulab_abs_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_abs_black_1000_175_n"
   },
   {
     "variant_id": "B00-R0",
     "color_name": "Red",
     "material": "ABS",
     "filament_code": "40200",
-    "spoolmandb_id": "bambulab_abs_red_1000_175_n",
-    "color_hex": "D32941"
+    "spoolmandb_id": "bambulab_abs_red_1000_175_n"
   },
   {
     "variant_id": "B00-W0",
     "color_name": "White",
     "material": "ABS",
     "filament_code": "40100",
-    "spoolmandb_id": "bambulab_abs_white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_abs_white_1000_175_n"
   },
   {
     "variant_id": "B00-Y0",
     "color_name": "Yellow",
     "material": "ABS",
     "filament_code": "40401",
-    "spoolmandb_id": "bambulab_abs_yellow_1000_175_n",
-    "color_hex": "FCE900"
+    "spoolmandb_id": "bambulab_abs_yellow_1000_175_n"
   },
   {
     "variant_id": "B00-Y1",
     "color_name": "Tangerine Yellow",
     "material": "ABS",
     "filament_code": "40402",
-    "spoolmandb_id": "bambulab_abs_tangerineyellow_1000_175_n",
-    "color_hex": "FFC72C"
+    "spoolmandb_id": "bambulab_abs_tangerineyellow_1000_175_n"
   },
   {
     "variant_id": "B01-B0",
     "color_name": "Blue",
     "material": "ASA",
     "filament_code": "45600",
-    "spoolmandb_id": "bambulab_asa_blue_1000_175_n",
-    "color_hex": "2140B4"
+    "spoolmandb_id": "bambulab_asa_blue_1000_175_n"
   },
   {
     "variant_id": "B01-D0",
     "color_name": "Gray",
     "material": "ASA",
     "filament_code": "45102",
-    "spoolmandb_id": "bambulab_asa_gray_1000_175_n",
-    "color_hex": "8A949E"
+    "spoolmandb_id": "bambulab_asa_gray_1000_175_n"
   },
   {
     "variant_id": "B01-G0",
     "color_name": "Green",
     "material": "ASA",
     "filament_code": "45500",
-    "spoolmandb_id": "bambulab_asa_green_1000_175_n",
-    "color_hex": "00A6A0"
+    "spoolmandb_id": "bambulab_asa_green_1000_175_n"
   },
   {
     "variant_id": "B01-K0",
     "color_name": "Black",
     "material": "ASA",
     "filament_code": "45101",
-    "spoolmandb_id": "bambulab_asa_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_asa_black_1000_175_n"
   },
   {
     "variant_id": "B01-R0",
     "color_name": "Red",
     "material": "ASA",
     "filament_code": "45200",
-    "spoolmandb_id": "bambulab_asa_red_1000_175_n",
-    "color_hex": "E02928"
+    "spoolmandb_id": "bambulab_asa_red_1000_175_n"
   },
   {
     "variant_id": "B01-W0",
     "color_name": "White",
     "material": "ASA",
     "filament_code": "45100",
-    "spoolmandb_id": "bambulab_asa_white_1000_175_n",
-    "color_hex": "FFFAF2"
+    "spoolmandb_id": "bambulab_asa_white_1000_175_n"
   },
   {
     "variant_id": "B02-W0",
     "color_name": "White Aero",
     "material": "ASA Aero",
     "filament_code": "46100",
-    "spoolmandb_id": "bambulab_asa_whiteaero_1000_175_n",
-    "color_hex": "F5F1DD"
+    "spoolmandb_id": "bambulab_asa_whiteaero_1000_175_n"
   },
   {
     "variant_id": "B50-A0",
     "color_name": "Orange",
     "material": "ABS-GF",
     "filament_code": "41300",
-    "spoolmandb_id": "bambulab_abs-gf_orange_1000_175_n",
-    "color_hex": "F48438"
+    "spoolmandb_id": "bambulab_abs-gf_orange_1000_175_n"
   },
   {
     "variant_id": "B50-K0",
     "color_name": "Black",
     "material": "ABS-GF",
     "filament_code": "41101",
-    "spoolmandb_id": "bambulab_abs-gf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_abs-gf_black_1000_175_n"
   },
   {
     "variant_id": "B50-R0",
     "color_name": "Red",
     "material": "ABS-GF",
     "filament_code": "41200",
-    "spoolmandb_id": "bambulab_abs-gf_red_1000_175_n",
-    "color_hex": "E83100"
+    "spoolmandb_id": "bambulab_abs-gf_red_1000_175_n"
   },
   {
     "variant_id": "B50-W0",
     "color_name": "White",
     "material": "ABS-GF",
     "filament_code": "41100",
-    "spoolmandb_id": "bambulab_abs-gf_white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_abs-gf_white_1000_175_n"
   },
   {
     "variant_id": "B51-K0",
     "color_name": "Black",
     "material": "ASA-CF",
     "filament_code": "46101",
-    "spoolmandb_id": "bambulab_asa-cf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_asa-cf_black_1000_175_n"
   },
   {
     "variant_id": "C00-C0",
     "color_name": "Clear Black",
     "material": "PC",
     "filament_code": "60102",
-    "spoolmandb_id": "bambulab_pc_clearblack_1000_175_n",
-    "color_hex": "5A5161"
+    "spoolmandb_id": "bambulab_pc_clearblack_1000_175_n"
   },
   {
     "variant_id": "C00-C1",
     "color_name": "Transparent",
     "material": "PC",
     "filament_code": "60103",
-    "spoolmandb_id": "bambulab_pc_transparent_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pc_transparent_1000_175_n"
   },
   {
     "variant_id": "C00-K0",
     "color_name": "Black",
     "material": "PC",
     "filament_code": "60101",
-    "spoolmandb_id": "bambulab_pc_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pc_black_1000_175_n"
   },
   {
     "variant_id": "C00-W0",
     "color_name": "White",
     "material": "PC",
     "filament_code": "60100",
-    "spoolmandb_id": "bambulab_pc_white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pc_white_1000_175_n"
   },
   {
     "variant_id": "C01-D0",
-    "color_name": "FR Gray",
+    "color_name": "FR Grey",
     "material": "PC FR",
     "filament_code": "63102",
-    "spoolmandb_id": "bambulab_pc_frgrey_1000_175_n",
-    "color_hex": "A8A8AA"
+    "spoolmandb_id": "bambulab_pc_frgrey_1000_175_n"
   },
   {
     "variant_id": "C01-K0",
     "color_name": "FR Black",
     "material": "PC FR",
     "filament_code": "63100",
-    "spoolmandb_id": "bambulab_pc_frblack_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pc_frblack_1000_175_n"
   },
   {
     "variant_id": "C01-W0",
     "color_name": "FR White",
     "material": "PC FR",
     "filament_code": "63101",
-    "spoolmandb_id": "bambulab_pc_frwhite_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pc_frwhite_1000_175_n"
   },
   {
     "variant_id": "G00-D00",
     "color_name": "Gray",
     "material": "PETG Basic",
     "filament_code": "30107",
-    "spoolmandb_id": "bambulab_petg_gray_1000_175_n",
-    "color_hex": "9EA2A2"
+    "spoolmandb_id": "bambulab_petg_gray_1000_175_n"
   },
   {
     "variant_id": "G00-K00",
     "color_name": "Black",
     "material": "PETG Basic",
     "filament_code": "30105",
-    "spoolmandb_id": "bambulab_petg_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_petg_black_1000_175_n"
   },
   {
     "variant_id": "G00-N00",
@@ -1380,335 +1236,293 @@
     "color_name": "Red",
     "material": "PETG Basic",
     "filament_code": "30201",
-    "spoolmandb_id": "bambulab_petg_red_1000_175_n",
-    "color_hex": "D6001C"
+    "spoolmandb_id": "bambulab_petg_red_1000_175_n"
   },
   {
     "variant_id": "G00-W00",
     "color_name": "White",
     "material": "PETG Basic",
     "filament_code": "30106",
-    "spoolmandb_id": "bambulab_petg_white_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_petg_white_1000_175_n"
   },
   {
     "variant_id": "G01-A0",
     "color_name": "Translucent Orange",
     "material": "PETG Translucent",
     "filament_code": "32300",
-    "spoolmandb_id": "bambulab_petg_translucentorange_1000_175_n",
-    "color_hex": "FF911A"
+    "spoolmandb_id": "bambulab_petg_translucentorange_1000_175_n"
   },
   {
     "variant_id": "G01-B0",
     "color_name": "Translucent Light Blue",
     "material": "PETG Translucent",
     "filament_code": "32600",
-    "spoolmandb_id": "bambulab_petg_translucentlightblue_1000_175_n",
-    "color_hex": "61B0FF"
+    "spoolmandb_id": "bambulab_petg_translucentlightblue_1000_175_n"
   },
   {
     "variant_id": "G01-C0",
     "color_name": "Clear",
     "material": "PETG Translucent",
     "filament_code": "32101",
-    "spoolmandb_id": "bambulab_petg_clear_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_petg_clear_1000_175_n"
   },
   {
     "variant_id": "G01-D0",
     "color_name": "Translucent Gray",
     "material": "PETG Translucent",
     "filament_code": "32100",
-    "spoolmandb_id": "bambulab_petg_translucentgray_1000_175_n",
-    "color_hex": "8E8E8E"
+    "spoolmandb_id": "bambulab_petg_translucentgray_1000_175_n"
   },
   {
     "variant_id": "G01-G0",
     "color_name": "Translucent Olive",
     "material": "PETG Translucent",
     "filament_code": "32500",
-    "spoolmandb_id": "bambulab_petg_translucentolive_1000_175_n",
-    "color_hex": "748C45"
+    "spoolmandb_id": "bambulab_petg_translucentolive_1000_175_n"
   },
   {
     "variant_id": "G01-G1",
     "color_name": "Translucent Teal",
     "material": "PETG Translucent",
     "filament_code": "32501",
-    "spoolmandb_id": "bambulab_petg_translucentteal_1000_175_n",
-    "color_hex": "77EDD7"
+    "spoolmandb_id": "bambulab_petg_translucentteal_1000_175_n"
   },
   {
     "variant_id": "G01-N0",
     "color_name": "Translucent Brown",
     "material": "PETG Translucent",
     "filament_code": "32800",
-    "spoolmandb_id": "bambulab_petg_translucentbrown_1000_175_n",
-    "color_hex": "C9A381"
+    "spoolmandb_id": "bambulab_petg_translucentbrown_1000_175_n"
   },
   {
     "variant_id": "G01-P0",
     "color_name": "Translucent Purple",
     "material": "PETG Translucent",
     "filament_code": "32700",
-    "spoolmandb_id": "bambulab_petg_translucentpurple_1000_175_n",
-    "color_hex": "D6ABFF"
+    "spoolmandb_id": "bambulab_petg_translucentpurple_1000_175_n"
   },
   {
     "variant_id": "G01-P1",
     "color_name": "Translucent Pink",
     "material": "PETG Translucent",
     "filament_code": "32200",
-    "spoolmandb_id": "bambulab_petg_translucentpink_1000_175_n",
-    "color_hex": "F9C1BD"
+    "spoolmandb_id": "bambulab_petg_translucentpink_1000_175_n"
   },
   {
     "variant_id": "G02-A0",
     "color_name": "HF Orange",
     "material": "PETG HF",
     "filament_code": "33300",
-    "spoolmandb_id": "bambulab_petg_hforange_1000_175_n",
-    "color_hex": "F75403"
+    "spoolmandb_id": "bambulab_petg_hforange_1000_175_n"
   },
   {
     "variant_id": "G02-B0",
     "color_name": "HF Blue",
     "material": "PETG HF",
     "filament_code": "33600",
-    "spoolmandb_id": "bambulab_petg_hfblue_1000_175_n",
-    "color_hex": "002E96"
+    "spoolmandb_id": "bambulab_petg_hfblue_1000_175_n"
   },
   {
     "variant_id": "G02-B1",
     "color_name": "HF Lake Blue",
     "material": "PETG HF",
     "filament_code": "33601",
-    "spoolmandb_id": "bambulab_petg_hflakeblue_1000_175_n",
-    "color_hex": "1F79E5"
+    "spoolmandb_id": "bambulab_petg_hflakeblue_1000_175_n"
   },
   {
     "variant_id": "G02-D0",
     "color_name": "HF Gray",
     "material": "PETG HF",
     "filament_code": "33101",
-    "spoolmandb_id": "bambulab_petg_hfgray_1000_175_n",
-    "color_hex": "ADB1B2"
+    "spoolmandb_id": "bambulab_petg_hfgray_1000_175_n"
   },
   {
     "variant_id": "G02-D1",
     "color_name": "HF Dark Gray",
     "material": "PETG HF",
     "filament_code": "33103",
-    "spoolmandb_id": "bambulab_petg_hfdarkgray_1000_175_n",
-    "color_hex": "515151"
+    "spoolmandb_id": "bambulab_petg_hfdarkgray_1000_175_n"
   },
   {
     "variant_id": "G02-G0",
     "color_name": "HF Green",
     "material": "PETG HF",
     "filament_code": "33500",
-    "spoolmandb_id": "bambulab_petg_hfgreen_1000_175_n",
-    "color_hex": "00AE42"
+    "spoolmandb_id": "bambulab_petg_hfgreen_1000_175_n"
   },
   {
     "variant_id": "G02-G1",
     "color_name": "HF Lime Green",
     "material": "PETG HF",
     "filament_code": "33501",
-    "spoolmandb_id": "bambulab_petg_hflimegreen_1000_175_n",
-    "color_hex": "6EE53C"
+    "spoolmandb_id": "bambulab_petg_hflimegreen_1000_175_n"
   },
   {
     "variant_id": "G02-G2",
     "color_name": "HF Forest Green",
     "material": "PETG HF",
     "filament_code": "33502",
-    "spoolmandb_id": "bambulab_petg_hfforestgreen_1000_175_n",
-    "color_hex": "39541A"
+    "spoolmandb_id": "bambulab_petg_hfforestgreen_1000_175_n"
   },
   {
     "variant_id": "G02-K0",
     "color_name": "HF Black",
     "material": "PETG HF",
     "filament_code": "33102",
-    "spoolmandb_id": "bambulab_petg_hfblack_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_petg_hfblack_1000_175_n"
   },
   {
     "variant_id": "G02-N1",
     "color_name": "HF Peanut Brown",
     "material": "PETG HF",
     "filament_code": "33801",
-    "spoolmandb_id": "bambulab_petg_hfpeanutbrown_1000_175_n",
-    "color_hex": "875718"
+    "spoolmandb_id": "bambulab_petg_hfpeanutbrown_1000_175_n"
   },
   {
     "variant_id": "G02-R0",
     "color_name": "HF Red",
     "material": "PETG HF",
     "filament_code": "33200",
-    "spoolmandb_id": "bambulab_petg_hfred_1000_175_n",
-    "color_hex": "EB3A3A"
+    "spoolmandb_id": "bambulab_petg_hfred_1000_175_n"
   },
   {
     "variant_id": "G02-W0",
     "color_name": "HF White",
     "material": "PETG HF",
     "filament_code": "33100",
-    "spoolmandb_id": "bambulab_petg_hfwhite_1000_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_petg_hfwhite_1000_175_n"
   },
   {
     "variant_id": "G02-Y0",
     "color_name": "HF Yellow",
     "material": "PETG HF",
     "filament_code": "33400",
-    "spoolmandb_id": "bambulab_petg_hfyellow_1000_175_n",
-    "color_hex": "FFD00B"
+    "spoolmandb_id": "bambulab_petg_hfyellow_1000_175_n"
   },
   {
     "variant_id": "G02-Y1",
     "color_name": "HF Cream",
     "material": "PETG HF",
     "filament_code": "33401",
-    "spoolmandb_id": "bambulab_petg_hfcream_1000_175_n",
-    "color_hex": "F9DFB9"
+    "spoolmandb_id": "bambulab_petg_hfcream_1000_175_n"
   },
   {
     "variant_id": "G50-D6",
     "color_name": "Titan Gray",
     "material": "PETG-CF",
     "filament_code": "31101",
-    "spoolmandb_id": "bambulab_petg-cf_titangray_1000_175_n",
-    "color_hex": "565656"
+    "spoolmandb_id": "bambulab_petg-cf_titangray_1000_175_n"
   },
   {
     "variant_id": "G50-G7",
     "color_name": "Malachite Green",
     "material": "PETG-CF",
     "filament_code": "31500",
-    "spoolmandb_id": "bambulab_petg-cf_malachitegreen_1000_175_n",
-    "color_hex": "16b08e"
+    "spoolmandb_id": "bambulab_petg-cf_malachitegreen_1000_175_n"
   },
   {
     "variant_id": "G50-K0",
     "color_name": "Black",
     "material": "PETG-CF",
     "filament_code": "31100",
-    "spoolmandb_id": "bambulab_petg-cf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_petg-cf_black_1000_175_n"
   },
   {
     "variant_id": "G50-P7",
     "color_name": "Violet Purple",
     "material": "PETG-CF",
     "filament_code": "31700",
-    "spoolmandb_id": "bambulab_petg-cf_violetpurple_1000_175_n",
-    "color_hex": "583061"
+    "spoolmandb_id": "bambulab_petg-cf_violetpurple_1000_175_n"
   },
   {
     "variant_id": "G50-R4",
     "color_name": "Brick Red",
     "material": "PETG-CF",
     "filament_code": "31200",
-    "spoolmandb_id": "bambulab_petg-cf_brickred_1000_175_n",
-    "color_hex": "9f332a"
+    "spoolmandb_id": "bambulab_petg-cf_brickred_1000_175_n"
   },
   {
     "variant_id": "N04-K0",
     "color_name": "Black",
     "material": "PAHT-CF",
     "filament_code": "70100",
-    "spoolmandb_id": "bambulab_paht-cf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_paht-cf_black_1000_175_n"
   },
   {
     "variant_id": "N08-K0",
     "color_name": "Black",
     "material": "PA6-GF",
     "filament_code": "72104",
-    "spoolmandb_id": "bambulab_pa6-gf_black_1000_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pa6-gf_black_1000_175_n"
   },
   {
     "variant_id": "S00-W0",
     "color_name": "Support for PLA/PETG Nature",
     "material": "Support for PLA/PETG",
     "filament_code": "65102",
-    "spoolmandb_id": "bambulab_pla_supportforpla/petgnature_500_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_supportforpla/petgnature_500_175_n"
   },
   {
     "variant_id": "S02-W0",
     "color_name": "Support for PLA/PETG Nature",
     "material": "Support for PLA/PETG",
     "filament_code": "65102",
-    "spoolmandb_id": "bambulab_pla_supportforpla/petgnature_500_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_supportforpla/petgnature_500_175_n"
   },
   {
     "variant_id": "S02-W1",
     "color_name": "Support for PLA White",
     "material": "Support for PLA (New Version)",
     "filament_code": "65104",
-    "spoolmandb_id": "bambulab_pla_supportforplawhite_500_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_pla_supportforplawhite_500_175_n"
   },
   {
     "variant_id": "S03-G1",
     "color_name": "Support for PA/PET",
     "material": "Support for PA/PET",
     "filament_code": "65500",
-    "spoolmandb_id": "bambulab_pa_supportforpa/pet_500_175_n",
-    "color_hex": "BECF00"
+    "spoolmandb_id": "bambulab_pa_supportforpa/pet_500_175_n"
   },
   {
     "variant_id": "S04-Y0",
     "color_name": "Clear",
     "material": "PVA",
     "filament_code": "66400",
-    "spoolmandb_id": "bambulab_pva_clear_500_175_n",
-    "color_hex": "F0F1A8"
+    "spoolmandb_id": "bambulab_pva_clear_500_175_n"
   },
   {
     "variant_id": "S05-C0",
     "color_name": "Support for PLA/PETG Black",
     "material": "Support for PLA/PETG",
     "filament_code": "65103",
-    "spoolmandb_id": "bambulab_pla_supportforpla/petgblack_500_175_n",
-    "color_hex": "000000"
+    "spoolmandb_id": "bambulab_pla_supportforpla/petgblack_500_175_n"
   },
   {
     "variant_id": "S06-W0",
     "color_name": "Support for ABS",
     "material": "Support for ABS",
     "filament_code": "66100",
-    "spoolmandb_id": "bambulab_abs_supportforabs_500_175_n",
-    "color_hex": "FFFFFF"
+    "spoolmandb_id": "bambulab_abs_supportforabs_500_175_n"
   },
   {
     "variant_id": "U02-B0",
     "color_name": "For AMS Blue",
     "material": "TPU for AMS",
     "filament_code": "53600",
-    "spoolmandb_id": "bambulab_tpu_foramsblue_1000_175_n",
-    "color_hex": "5898DD"
+    "spoolmandb_id": "bambulab_tpu_foramsblue_1000_175_n"
   },
   {
     "variant_id": "U02-D0",
     "color_name": "For AMS Gray",
     "material": "TPU for AMS",
     "filament_code": "53102",
-    "spoolmandb_id": "bambulab_tpu_foramsgray_1000_175_n",
-    "color_hex": "939393"
+    "spoolmandb_id": "bambulab_tpu_foramsgray_1000_175_n"
   },
   {
     "variant_id": "U02-K0",
     "color_name": "For AMS Neon Green",
     "material": "TPU for AMS",
     "filament_code": "53500",
-    "spoolmandb_id": "bambulab_tpu_foramsneongreen_1000_175_n",
-    "color_hex": "90FF1A"
+    "spoolmandb_id": "bambulab_tpu_foramsneongreen_1000_175_n"
   }
 ]

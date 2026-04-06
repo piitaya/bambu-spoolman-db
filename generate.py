@@ -3,17 +3,15 @@
 
 import json
 import re
-import sys
 import urllib.request
 
 RFID_URL = "https://raw.githubusercontent.com/queengooborg/Bambu-Lab-RFID-Library/main/README.md"
 SPOOLMAN_URL = "https://donkie.github.io/SpoolmanDB/filaments.json"
 BAMBU_COLORS_URL = "https://raw.githubusercontent.com/bambulab/BambuStudio/master/resources/profiles/BBL/filament/filaments_color_codes.json"
 
-# Map RFID section name -> (spoolmandb_material, prefix, suffix)
-# None means no SpoolmanDB equivalent
+# Map RFID section -> (spoolmandb_material, name_prefix, name_suffix)
+# None = no SpoolmanDB equivalent
 MATERIAL_MAP = {
-    # PLA variants
     "PLA Basic": ("PLA", "", ""),
     "PLA Matte": ("PLA", "Matte ", ""),
     "PLA Silk+": ("PLA", "Silk+ ", ""),
@@ -31,28 +29,21 @@ MATERIAL_MAP = {
     "PLA Lite": None,
     "PLA Aero": None,
     "PLA Tough": None,
-    # PETG variants
     "PETG Basic": ("PETG", "", ""),
     "PETG HF": ("PETG", "HF ", ""),
     "PETG Translucent": ("PETG", "", ""),
     "PETG-CF": ("PETG-CF", "", ""),
-    # ABS variants
     "ABS": ("ABS", "", ""),
     "ABS-GF": ("ABS-GF", "", ""),
-    # ASA variants
     "ASA": ("ASA", "", ""),
     "ASA Aero": ("ASA", "", " Aero"),
     "ASA-CF": ("ASA-CF", "", ""),
-    # PC variants
     "PC": ("PC", "", ""),
     "PC FR": ("PC", "FR ", ""),
-    # TPU variants
     "TPU for AMS": ("TPU", "For AMS ", ""),
-    # PA variants
     "PAHT-CF": ("PAHT-CF", "", ""),
     "PA6-GF": ("PA6-GF", "", ""),
     "PA6-CF": ("PA6-CF", "", ""),
-    # Support materials
     "Support for PLA/PETG": ("PLA", "Support for PLA/PETG ", ""),
     "Support for PLA (New Version)": ("PLA", "Support for PLA ", ""),
     "Support for ABS": ("ABS", "Support for ABS", ""),
@@ -62,15 +53,18 @@ MATERIAL_MAP = {
 
 SUPPORT_NO_COLOR = {"Support for ABS", "Support for PA/PET"}
 
-SECTION_RE = re.compile(r"^####\s+\[([^\]]+)\]", re.MULTILINE)
-ROW_RE = re.compile(
+RE_SECTION = re.compile(r"^####\s+\[([^\]]+)\]", re.MULTILINE)
+RE_ROW = re.compile(
     r"\|\s*\[([^\]]+)\]\([^)]*\)\s*\|"
     r"\s*(\d+)\s*\|"
     r"\s*([^|]+?)\s*\|"
     r"\s*([^|]*?)\s*\|"
 )
-VARIANT_ID_RE = re.compile(r"[A-Z]\d+-\w+")
-SLASH_RE = re.compile(r"([A-Z]\d+-)(\w+)/(\w+)")
+RE_VARIANT_ID = re.compile(r"[A-Z]\d+-\w+")
+RE_SLASH_ID = re.compile(r"([A-Z]\d+-)(\w+)/(\w+)")
+
+
+# --- Download ---
 
 
 def download(url: str) -> str:
@@ -80,74 +74,79 @@ def download(url: str) -> str:
         return resp.read().decode("utf-8")
 
 
+# --- Parsing ---
+
+
 def parse_rfid_readme(markdown: str) -> list[dict]:
+    """Parse RFID library README into list of {section, color, code, variant_id}."""
     entries = []
-    current_section = None
+    section = None
 
     for line in markdown.split("\n"):
-        section_match = SECTION_RE.match(line)
-        if section_match:
-            current_section = section_match.group(1).strip()
+        m = RE_SECTION.match(line)
+        if m:
+            section = m.group(1).strip()
             continue
 
-        if current_section is None:
+        if section is None:
             continue
 
-        row_match = ROW_RE.search(line)
-        if not row_match:
+        m = RE_ROW.search(line)
+        if not m:
             continue
 
-        color_name = row_match.group(1).strip()
-        filament_code = row_match.group(2).strip()
-        raw_variant_id = row_match.group(3).strip()
+        color = m.group(1).strip()
+        code = m.group(2).strip()
+        raw_id = m.group(3).strip()
 
-        if raw_variant_id == "?" or raw_variant_id == "":
+        if not raw_id or raw_id == "?":
             continue
 
-        def add(variant_id):
-            entries.append({
-                "section": current_section,
-                "color": color_name,
-                "code": filament_code,
-                "variant_id": variant_id,
-            })
+        def add(vid):
+            entries.append({"section": section, "color": color, "code": code, "variant_id": vid})
 
         # "A00-G1/G6" -> two entries
-        slash_match = SLASH_RE.match(raw_variant_id)
-        if slash_match:
-            add(slash_match.group(1) + slash_match.group(2))
-            add(slash_match.group(1) + slash_match.group(3))
+        m = RE_SLASH_ID.match(raw_id)
+        if m:
+            add(m.group(1) + m.group(2))
+            add(m.group(1) + m.group(3))
             continue
 
         # "S02-W0 (Old: S00-W0)" -> primary + old
-        primary = VARIANT_ID_RE.match(raw_variant_id)
+        primary = RE_VARIANT_ID.match(raw_id)
         if primary:
             add(primary.group(0))
-            old = re.search(r"Old:\s*([A-Z]\d+-\w+)", raw_variant_id)
+            old = re.search(r"Old:\s*([A-Z]\d+-\w+)", raw_id)
             if old:
                 add(old.group(1))
 
     return entries
 
 
-def build_spoolman_index(filaments: list[dict]) -> dict[str, list[dict]]:
+def parse_spoolman(filaments: list[dict]) -> dict[str, list[dict]]:
+    """Build index: material -> [bambulab entries]."""
     index: dict[str, list[dict]] = {}
     for f in filaments:
-        if not f.get("id", "").startswith("bambulab_"):
-            continue
-        index.setdefault(f["material"], []).append(f)
+        if f.get("id", "").startswith("bambulab_"):
+            index.setdefault(f["material"], []).append(f)
     return index
 
 
-def build_bambu_color_index(data: dict) -> dict[str, str]:
-    """filament_code -> official English color name."""
+def parse_bambu_colors(data: dict) -> dict[str, dict]:
+    """Build index: filament_code -> {name, color_hex}."""
     index = {}
-    for entry in data.get("data", []):
-        code = entry.get("fila_color_code", "")
-        name = entry.get("fila_color_name", {}).get("en", "")
-        if code and name:
-            index[code] = name
+    for e in data.get("data", []):
+        code = e.get("fila_color_code", "")
+        name = e.get("fila_color_name", {}).get("en", "")
+        if not code or not name:
+            continue
+        colors = e.get("fila_color", [])
+        color_hex = colors[0][1:7] if colors and len(colors[0]) >= 7 else None
+        index[code] = {"name": name, "color_hex": color_hex}
     return index
+
+
+# --- Matching ---
 
 
 def normalize(name: str) -> str:
@@ -162,7 +161,8 @@ def swap_grey_gray(name: str) -> str:
     return name
 
 
-def construct_display_name(section: str, color: str) -> str:
+def build_display_name(section: str, color: str) -> str:
+    """Build expected SpoolmanDB name from RFID section + color."""
     config = MATERIAL_MAP.get(section)
     if config is None:
         return color
@@ -172,105 +172,107 @@ def construct_display_name(section: str, color: str) -> str:
     return f"{prefix}{color}{suffix}"
 
 
-def match_spoolman(section: str, color: str, spoolman_index: dict) -> tuple[str | None, str | None]:
-    """Returns (spoolmandb_id, spoolman_name) or (None, None)."""
+def find_spoolman_match(section: str, color: str, spoolman: dict) -> tuple[str | None, str | None, str | None]:
+    """Find SpoolmanDB match. Returns (id, name, color_hex) or (None, None, None)."""
     config = MATERIAL_MAP.get(section)
     if config is None:
-        return None, None
+        return None, None, None
 
-    candidates = spoolman_index.get(config[0], [])
+    candidates = spoolman.get(config[0], [])
     if not candidates:
-        return None, None
+        return None, None, None
 
-    display_name = construct_display_name(section, color)
-    norm_target = normalize(display_name)
+    target = build_display_name(section, color)
+    norm = normalize(target)
 
-    # Phase 1: Exact match
+    def _found(c):
+        return c["id"], c["name"], c.get("color_hex")
+
+    # Exact
     for c in candidates:
-        if c["name"] == display_name:
-            return c["id"], c["name"]
+        if c["name"] == target:
+            return _found(c)
 
-    # Phase 2: Normalized match
+    # Normalized
     for c in candidates:
-        if normalize(c["name"]) == norm_target:
-            return c["id"], c["name"]
+        if normalize(c["name"]) == norm:
+            return _found(c)
 
-    # Phase 3: Grey<->Gray swap
-    swapped = swap_grey_gray(display_name)
-    if swapped != display_name:
+    # Grey<->Gray
+    swapped = swap_grey_gray(target)
+    if swapped != target:
         for c in candidates:
             if c["name"] == swapped or normalize(c["name"]) == normalize(swapped):
-                return c["id"], c["name"]
+                return _found(c)
 
-    # Phase 4: Partial match (strip parenthesized parts)
+    # Partial (strip parenthesized parts for multi-color names)
     for c in candidates:
-        base_name = re.sub(r"\s*\([^)]*\)", "", c["name"])
-        if base_name == display_name or normalize(base_name) == norm_target:
-            return c["id"], c["name"]
+        base = re.sub(r"\s*\([^)]*\)", "", c["name"])
+        if base == target or normalize(base) == norm:
+            return _found(c)
 
-    return None, None
+    return None, None, None
+
+
+# --- Main ---
 
 
 def main():
     print("Downloading sources...")
-    rfid_md = download(RFID_URL)
-    spoolman_data = json.loads(download(SPOOLMAN_URL))
-    bambu_colors_data = json.loads(download(BAMBU_COLORS_URL))
+    rfid_entries = parse_rfid_readme(download(RFID_URL))
+    spoolman = parse_spoolman(json.loads(download(SPOOLMAN_URL)))
+    bambu_names = parse_bambu_colors(json.loads(download(BAMBU_COLORS_URL)))
 
-    rfid_entries = parse_rfid_readme(rfid_md)
-    spoolman_index = build_spoolman_index(spoolman_data)
-    bambu_names = build_bambu_color_index(bambu_colors_data)
-
-    spoolman_count = sum(len(v) for v in spoolman_index.values())
+    spoolman_count = sum(len(v) for v in spoolman.values())
     print(f"\nParsed {len(rfid_entries)} RFID entries, "
           f"{spoolman_count} SpoolmanDB entries, "
           f"{len(bambu_names)} BambuStudio colors")
 
     # Track unknown sections
-    unknown_sections = set()
-    for e in rfid_entries:
-        if e["section"] not in MATERIAL_MAP:
-            unknown_sections.add(e["section"])
+    unknown_sections = {e["section"] for e in rfid_entries if e["section"] not in MATERIAL_MAP}
 
     # Match and build results
     results = []
     seen = set()
 
     for entry in rfid_entries:
-        vid = entry["variant_id"]
-        if vid in seen:
+        if entry["variant_id"] in seen:
             continue
-        seen.add(vid)
+        seen.add(entry["variant_id"])
 
-        spoolman_id, spoolman_name = match_spoolman(
-            entry["section"], entry["color"], spoolman_index
+        spoolman_id, spoolman_name, spoolman_hex = find_spoolman_match(entry["section"], entry["color"], spoolman)
+
+        # Name priority: BambuStudio official > SpoolmanDB > constructed
+        bambu_info = bambu_names.get(entry["code"])
+        color_name = (
+            (bambu_info["name"] if bambu_info else None)
+            or spoolman_name
+            or build_display_name(entry["section"], entry["color"])
         )
 
-        # Name priority: SpoolmanDB > BambuStudio official > constructed
-        if spoolman_name:
-            color_name = spoolman_name
-        elif entry["code"] in bambu_names:
-            color_name = bambu_names[entry["code"]]
-        else:
-            color_name = construct_display_name(entry["section"], entry["color"])
+        # Hex priority: BambuStudio official > SpoolmanDB
+        color_hex = (bambu_info["color_hex"] if bambu_info else None) or spoolman_hex
 
-        results.append({
-            "variant_id": vid,
-            "color_name": color_name,
+        result = {
+            "id": entry["variant_id"],
+            "code": entry["code"],
             "material": entry["section"],
-            "filament_code": entry["code"],
-            "spoolmandb_id": spoolman_id,
-        })
+            "color_name": color_name,
+        }
+        if color_hex:
+            result["color_hex"] = color_hex
+        result["spoolman_id"] = spoolman_id
+        results.append(result)
 
-    # Sort and write
-    results.sort(key=lambda x: x["variant_id"])
+    # Write output
+    results.sort(key=lambda x: x["id"])
     with open("bambu_variants.json", "w") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
     # Stats
-    matched = [r for r in results if r["spoolmandb_id"]]
-    unmatched = [r for r in results if not r["spoolmandb_id"]]
+    matched = [r for r in results if r["spoolman_id"]]
+    unmatched = [r for r in results if not r["spoolman_id"]]
 
     print(f"\n{'=' * 50}")
     print(f"Total: {len(results)} | Matched: {len(matched)} | Unmatched: {len(unmatched)}")
@@ -287,7 +289,7 @@ def main():
         for r in unmatched:
             by_mat.setdefault(r["material"], []).append(r)
         for mat in sorted(by_mat):
-            names = ", ".join(f'{r["color_name"]} ({r["variant_id"]})' for r in by_mat[mat])
+            names = ", ".join(f'{r["color_name"]} ({r["id"]})' for r in by_mat[mat])
             print(f"  {mat}: {names}")
 
     print(f"\nWrote bambu_variants.json")

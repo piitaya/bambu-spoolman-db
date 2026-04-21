@@ -1,6 +1,6 @@
-name: Add missing filament
+name: Missing filament
 description: Report a Bambu filament that isn't in the catalog yet.
-title: "Add filament "
+title: "Add  "
 labels: ["unknown-filament"]
 body:
   - type: markdown

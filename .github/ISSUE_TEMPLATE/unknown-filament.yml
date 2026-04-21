@@ -1,0 +1,71 @@
+name: Add missing filament
+description: Report a Bambu filament that isn't in the catalog yet.
+title: "Add filament "
+labels: ["unknown-filament"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the catalog. The fields below are pre-filled
+        from your AMS reading. Please double-check them, then submit.
+
+  - type: input
+    id: variant_id
+    attributes:
+      label: Filament ID
+      description: The RFID variant id printed on the spool (e.g. `A00-B0`).
+      placeholder: A00-B0
+    validations:
+      required: true
+
+  - type: input
+    id: material
+    attributes:
+      label: Material
+      description: The material family (e.g. PLA, PETG, ABS).
+      placeholder: PLA
+
+  - type: input
+    id: product
+    attributes:
+      label: Product name
+      description: The Bambu product name, if known.
+      placeholder: PLA Basic
+
+  - type: input
+    id: color_hex
+    attributes:
+      label: Color (hex)
+      description: Primary color hex, without the `#`.
+      placeholder: 00AE42
+
+  - type: input
+    id: color_hexes
+    attributes:
+      label: Color hexes (multi-color spools)
+      description: Comma-separated hex values for multi-color spools.
+      placeholder: FF0000, 00AE42
+
+  - type: input
+    id: temp_min
+    attributes:
+      label: Nozzle temperature — min (°C)
+      placeholder: "200"
+
+  - type: input
+    id: temp_max
+    attributes:
+      label: Nozzle temperature — max (°C)
+      placeholder: "230"
+
+  - type: input
+    id: weight
+    attributes:
+      label: Spool weight (g)
+      placeholder: "1000"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Anything else worth knowing (promo edition, seasonal, limited release…).

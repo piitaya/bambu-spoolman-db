@@ -2552,7 +2552,7 @@
   {
     "id": "A11-K0",
     "sku": "14103",
-    "material": null,
+    "material": "PLA",
     "product": "PLA Aero",
     "color_name": "Black",
     "color_hex": "000000FF",
@@ -2569,7 +2569,7 @@
   {
     "id": "A11-W0",
     "sku": "14102",
-    "material": null,
+    "material": "PLA",
     "product": "PLA Aero",
     "color_name": "White",
     "color_hex": "FFFFFFFF",
@@ -2841,16 +2841,16 @@
   {
     "id": "A16-Y0",
     "sku": "13403",
-    "material": null,
+    "material": "PLA",
     "product": "PLA Wood",
     "color_name": "Ochre Yellow",
     "color_hex": "C98935FF",
     "color_hexes": [
       "C98935FF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 190,
+    "temp_max": 230,
     "integrations": {
       "spoolman": "bambulab_pla+wood_ochreyellow_1000_175_n"
     }
@@ -3147,16 +3147,16 @@
   {
     "id": "A50-B6",
     "sku": "14601",
-    "material": null,
+    "material": "PLA",
     "product": "PLA-CF",
     "color_name": "Royal Blue",
     "color_hex": "2842ADFF",
     "color_hexes": [
       "2842ADFF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 210,
+    "temp_max": 240,
     "integrations": {
       "spoolman": "bambulab_pla-cf_royalblue_1000_175_n"
     }
@@ -3538,16 +3538,16 @@
   {
     "id": "B50-A0",
     "sku": "41300",
-    "material": null,
+    "material": "ABS",
     "product": "ABS-GF",
     "color_name": "Orange",
     "color_hex": "F48438FF",
     "color_hexes": [
       "F48438FF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 240,
+    "temp_max": 270,
     "integrations": {
       "spoolman": "bambulab_abs-gf_orange_1000_175_n"
     }
@@ -3572,16 +3572,16 @@
   {
     "id": "B50-R0",
     "sku": "41200",
-    "material": null,
+    "material": "ABS",
     "product": "ABS-GF",
     "color_name": "Red",
     "color_hex": "E83100FF",
     "color_hexes": [
       "E83100FF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 240,
+    "temp_max": 270,
     "integrations": {
       "spoolman": "bambulab_abs-gf_red_1000_175_n"
     }
@@ -3589,16 +3589,16 @@
   {
     "id": "B50-W0",
     "sku": "41100",
-    "material": null,
+    "material": "ABS",
     "product": "ABS-GF",
     "color_name": "White",
     "color_hex": "FFFFFFFF",
     "color_hexes": [
       "FFFFFFFF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 240,
+    "temp_max": 270,
     "integrations": {
       "spoolman": "bambulab_abs-gf_white_1000_175_n"
     }
@@ -3861,16 +3861,16 @@
   {
     "id": "G00-R00",
     "sku": "30201",
-    "material": null,
+    "material": "PETG",
     "product": "PETG Basic",
     "color_name": "Red",
     "color_hex": "D6001CFF",
     "color_hexes": [
       "D6001CFF"
     ],
-    "weight": null,
-    "temp_min": null,
-    "temp_max": null,
+    "weight": 1000,
+    "temp_min": 220,
+    "temp_max": 270,
     "integrations": {
       "spoolman": "bambulab_petg_red_1000_175_n"
     }
@@ -4422,7 +4422,7 @@
   {
     "id": "N08-K0",
     "sku": "72104",
-    "material": null,
+    "material": "PA6",
     "product": "PA6-GF",
     "color_name": "Black",
     "color_hex": "000000FF",

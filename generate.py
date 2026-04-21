@@ -360,6 +360,13 @@ def _normalize_color_hex(raw: str | None) -> str | None:
     return h if len(h) == 8 else None
 
 
+def _infer_material(product: str | None) -> str | None:
+    """Derive broad material (e.g. 'PLA') from product (e.g. 'PLA Aero', 'PLA-CF')."""
+    if not product:
+        return None
+    return product.split(" ")[0].split("-")[0] or None
+
+
 def _lookup_bambu_by_hex(
     color_hex: str | None,
     product: str,
@@ -486,7 +493,7 @@ def main():
         results.append({
             "id": vid,
             "sku": sku,
-            "material": entry.get("material"),
+            "material": entry.get("material") or _infer_material(product),
             "product": product,
             "color_name": color_name,
             "color_hex": color_hex,
@@ -529,7 +536,7 @@ def main():
         results.append({
             "id": vid,
             "sku": sku,
-            "material": m.get("material"),
+            "material": m.get("material") or _infer_material(product),
             "product": product,
             "color_name": color_name,
             "color_hex": color_hex,
@@ -539,6 +546,23 @@ def main():
             "temp_max": m.get("temp_max"),
             "integrations": {"spoolman": spoolman_id},
         })
+
+    # Backfill weight / temp_min / temp_max from sibling variants (same product + ID prefix).
+    # Pooled from tagged entries so README-only stubs inherit physical specs.
+    pool: dict[tuple[str, str], dict] = {}
+    for r in results:
+        prefix = r["id"].split("-", 1)[0]
+        key = (r["product"], prefix)
+        bucket = pool.setdefault(key, {})
+        for field in ("weight", "temp_min", "temp_max"):
+            if bucket.get(field) is None and r.get(field) is not None:
+                bucket[field] = r[field]
+    for r in results:
+        prefix = r["id"].split("-", 1)[0]
+        bucket = pool.get((r["product"], prefix), {})
+        for field in ("weight", "temp_min", "temp_max"):
+            if r.get(field) is None and bucket.get(field) is not None:
+                r[field] = bucket[field]
 
     results.sort(key=lambda x: x["id"])
     with open("filaments.json", "w") as f:

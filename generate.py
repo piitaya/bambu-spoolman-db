@@ -280,7 +280,7 @@ def main():
         }
         if color_hex:
             result["color_hex"] = color_hex
-        result["spoolman_id"] = spoolman_id
+        result["integrations"] = {"spoolman": spoolman_id}
         results.append(result)
 
     # Write output
@@ -290,8 +290,8 @@ def main():
         f.write("\n")
 
     # Stats
-    matched = [r for r in results if r["spoolman_id"]]
-    unmatched = [r for r in results if not r["spoolman_id"]]
+    matched = [r for r in results if r["integrations"]["spoolman"]]
+    unmatched = [r for r in results if not r["integrations"]["spoolman"]]
 
     print(f"\n{'=' * 50}")
     print(f"Total: {len(results)} | Matched: {len(matched)} | Unmatched: {len(unmatched)}")

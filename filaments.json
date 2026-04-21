@@ -5,7 +5,9 @@
     "material": "PLA Basic",
     "color_name": "Orange",
     "color_hex": "FF6A13",
-    "spoolman_id": "bambulab_pla_orange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_orange_1000_175_n"
+    }
   },
   {
     "id": "A00-A1",
@@ -13,7 +15,9 @@
     "material": "PLA Basic",
     "color_name": "Pumpkin Orange",
     "color_hex": "FF9016",
-    "spoolman_id": "bambulab_pla_pumpkinorange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_pumpkinorange_1000_175_n"
+    }
   },
   {
     "id": "A00-B1",
@@ -21,7 +25,9 @@
     "material": "PLA Basic",
     "color_name": "Blue Gray",
     "color_hex": "5B6579",
-    "spoolman_id": "bambulab_pla_bluegray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_bluegray_1000_175_n"
+    }
   },
   {
     "id": "A00-B3",
@@ -29,7 +35,9 @@
     "material": "PLA Basic",
     "color_name": "Cobalt Blue",
     "color_hex": "0056B8",
-    "spoolman_id": "bambulab_pla_cobaltblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_cobaltblue_1000_175_n"
+    }
   },
   {
     "id": "A00-B5",
@@ -37,7 +45,9 @@
     "material": "PLA Basic",
     "color_name": "Turquoise",
     "color_hex": "00B1B7",
-    "spoolman_id": "bambulab_pla_turquoise_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_turquoise_1000_175_n"
+    }
   },
   {
     "id": "A00-B8",
@@ -45,7 +55,9 @@
     "material": "PLA Basic",
     "color_name": "Cyan",
     "color_hex": "0086D6",
-    "spoolman_id": "bambulab_pla_cyan_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_cyan_1000_175_n"
+    }
   },
   {
     "id": "A00-D0",
@@ -53,7 +65,9 @@
     "material": "PLA Basic",
     "color_name": "Gray",
     "color_hex": "8E9089",
-    "spoolman_id": "bambulab_pla_gray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_gray_1000_175_n"
+    }
   },
   {
     "id": "A00-D1",
@@ -61,7 +75,9 @@
     "material": "PLA Basic",
     "color_name": "Silver",
     "color_hex": "A6A9AA",
-    "spoolman_id": "bambulab_pla_silver_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silver_1000_175_n"
+    }
   },
   {
     "id": "A00-D2",
@@ -69,7 +85,9 @@
     "material": "PLA Basic",
     "color_name": "Light Gray",
     "color_hex": "D1D3D5",
-    "spoolman_id": "bambulab_pla_lightgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_lightgray_1000_175_n"
+    }
   },
   {
     "id": "A00-D3",
@@ -77,7 +95,9 @@
     "material": "PLA Basic",
     "color_name": "Dark Gray",
     "color_hex": "545454",
-    "spoolman_id": "bambulab_pla_darkgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_darkgray_1000_175_n"
+    }
   },
   {
     "id": "A00-G1",
@@ -85,7 +105,9 @@
     "material": "PLA Basic",
     "color_name": "Bambu Green",
     "color_hex": "00AE42",
-    "spoolman_id": "bambulab_pla_bambugreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_bambugreen_1000_175_n"
+    }
   },
   {
     "id": "A00-G2",
@@ -93,7 +115,9 @@
     "material": "PLA Basic",
     "color_name": "Mistletoe Green",
     "color_hex": "3F8E43",
-    "spoolman_id": "bambulab_pla_mistletoegreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mistletoegreen_1000_175_n"
+    }
   },
   {
     "id": "A00-G3",
@@ -101,7 +125,9 @@
     "material": "PLA Basic",
     "color_name": "Bright Green",
     "color_hex": "BECF00",
-    "spoolman_id": "bambulab_pla_brightgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_brightgreen_1000_175_n"
+    }
   },
   {
     "id": "A00-G6",
@@ -109,7 +135,9 @@
     "material": "PLA Basic",
     "color_name": "Bambu Green",
     "color_hex": "00AE42",
-    "spoolman_id": "bambulab_pla_bambugreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_bambugreen_1000_175_n"
+    }
   },
   {
     "id": "A00-K0",
@@ -117,7 +145,9 @@
     "material": "PLA Basic",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_black_1000_175_n"
+    }
   },
   {
     "id": "A00-M0",
@@ -125,7 +155,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Arctic Whisper",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_arcticwhisper_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_arcticwhisper_1000_175_n"
+    }
   },
   {
     "id": "A00-M1",
@@ -133,7 +165,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Solar Breeze",
     "color_hex": "E94B3C",
-    "spoolman_id": "bambulab_pla_solarbreeze_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_solarbreeze_1000_175_n"
+    }
   },
   {
     "id": "A00-M2",
@@ -141,7 +175,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Ocean to Meadow",
     "color_hex": "307FE2",
-    "spoolman_id": "bambulab_pla_oceantomeadow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_oceantomeadow_1000_175_n"
+    }
   },
   {
     "id": "A00-M3",
@@ -149,7 +185,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Pink Citrus",
     "color_hex": "F78F77",
-    "spoolman_id": "bambulab_pla_pinkcitrus_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_pinkcitrus_1000_175_n"
+    }
   },
   {
     "id": "A00-M4",
@@ -157,7 +195,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Mint Lime",
     "color_hex": "4EC939",
-    "spoolman_id": "bambulab_pla_mintlime_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mintlime_1000_175_n"
+    }
   },
   {
     "id": "A00-M5",
@@ -165,7 +205,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Blueberry Bubblegum",
     "color_hex": "6FCAEF",
-    "spoolman_id": "bambulab_pla_blueberrybubblegum_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_blueberrybubblegum_1000_175_n"
+    }
   },
   {
     "id": "A00-M6",
@@ -173,7 +215,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Dusk Glare",
     "color_hex": "CE4406",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A00-M7",
@@ -181,7 +225,9 @@
     "material": "PLA Basic Gradient",
     "color_name": "Cotton Candy Cloud",
     "color_hex": "8EC9E9",
-    "spoolman_id": "bambulab_pla_cottoncandycloud_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_cottoncandycloud_1000_175_n"
+    }
   },
   {
     "id": "A00-N0",
@@ -189,7 +235,9 @@
     "material": "PLA Basic",
     "color_name": "Brown",
     "color_hex": "9D432C",
-    "spoolman_id": "bambulab_pla_brown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_brown_1000_175_n"
+    }
   },
   {
     "id": "A00-N1",
@@ -197,7 +245,9 @@
     "material": "PLA Basic",
     "color_name": "Cocoa Brown",
     "color_hex": "6F5034",
-    "spoolman_id": "bambulab_pla_cocoabrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_cocoabrown_1000_175_n"
+    }
   },
   {
     "id": "A00-P0",
@@ -205,7 +255,9 @@
     "material": "PLA Basic",
     "color_name": "Beige",
     "color_hex": "F7E6DE",
-    "spoolman_id": "bambulab_pla_beige_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_beige_1000_175_n"
+    }
   },
   {
     "id": "A00-P2",
@@ -213,7 +265,9 @@
     "material": "PLA Basic",
     "color_name": "Indigo Purple",
     "color_hex": "482960",
-    "spoolman_id": "bambulab_pla_indigopurple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_indigopurple_1000_175_n"
+    }
   },
   {
     "id": "A00-P5",
@@ -221,7 +275,9 @@
     "material": "PLA Basic",
     "color_name": "Purple",
     "color_hex": "5E43B7",
-    "spoolman_id": "bambulab_pla_purple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_purple_1000_175_n"
+    }
   },
   {
     "id": "A00-P6",
@@ -229,7 +285,9 @@
     "material": "PLA Basic",
     "color_name": "Magenta",
     "color_hex": "EC008C",
-    "spoolman_id": "bambulab_pla_magenta_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_magenta_1000_175_n"
+    }
   },
   {
     "id": "A00-R0",
@@ -237,7 +295,9 @@
     "material": "PLA Basic",
     "color_name": "Red",
     "color_hex": "C12E1F",
-    "spoolman_id": "bambulab_pla_red_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_red_1000_175_n"
+    }
   },
   {
     "id": "A00-R2",
@@ -245,7 +305,9 @@
     "material": "PLA Basic",
     "color_name": "Maroon Red",
     "color_hex": "9D2235",
-    "spoolman_id": "bambulab_pla_maroonred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_maroonred_1000_175_n"
+    }
   },
   {
     "id": "A00-R3",
@@ -253,7 +315,9 @@
     "material": "PLA Basic",
     "color_name": "Hot Pink",
     "color_hex": "F5547C",
-    "spoolman_id": "bambulab_pla_hotpink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_hotpink_1000_175_n"
+    }
   },
   {
     "id": "A00-W1",
@@ -261,7 +325,9 @@
     "material": "PLA Basic",
     "color_name": "Jade White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_jadewhite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_jadewhite_1000_175_n"
+    }
   },
   {
     "id": "A00-Y0",
@@ -269,7 +335,9 @@
     "material": "PLA Basic",
     "color_name": "Yellow",
     "color_hex": "F4EE2A",
-    "spoolman_id": "bambulab_pla_yellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_yellow_1000_175_n"
+    }
   },
   {
     "id": "A00-Y2",
@@ -277,7 +345,9 @@
     "material": "PLA Basic",
     "color_name": "Sunflower Yellow",
     "color_hex": "FEC600",
-    "spoolman_id": "bambulab_pla_sunfloweryellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_sunfloweryellow_1000_175_n"
+    }
   },
   {
     "id": "A00-Y3",
@@ -285,7 +355,9 @@
     "material": "PLA Basic",
     "color_name": "Bronze",
     "color_hex": "847D48",
-    "spoolman_id": "bambulab_pla_bronze_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_bronze_1000_175_n"
+    }
   },
   {
     "id": "A00-Y4",
@@ -293,7 +365,9 @@
     "material": "PLA Basic",
     "color_name": "Gold",
     "color_hex": "E4BD68",
-    "spoolman_id": "bambulab_pla_gold_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_gold_1000_175_n"
+    }
   },
   {
     "id": "A01-A2",
@@ -301,7 +375,9 @@
     "material": "PLA Matte",
     "color_name": "Mandarin Orange",
     "color_hex": "F99963",
-    "spoolman_id": "bambulab_pla_mattemandarinorange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattemandarinorange_1000_175_n"
+    }
   },
   {
     "id": "A01-B0",
@@ -309,7 +385,9 @@
     "material": "PLA Matte",
     "color_name": "Sky Blue",
     "color_hex": "56B7E6",
-    "spoolman_id": "bambulab_pla_matteskyblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteskyblue_1000_175_n"
+    }
   },
   {
     "id": "A01-B3",
@@ -317,7 +395,9 @@
     "material": "PLA Matte",
     "color_name": "Marine Blue",
     "color_hex": "0078BF",
-    "spoolman_id": "bambulab_pla_mattemarineblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattemarineblue_1000_175_n"
+    }
   },
   {
     "id": "A01-B4",
@@ -325,7 +405,9 @@
     "material": "PLA Matte",
     "color_name": "Ice Blue",
     "color_hex": "A3D8E1",
-    "spoolman_id": "bambulab_pla_matteiceblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteiceblue_1000_175_n"
+    }
   },
   {
     "id": "A01-B6",
@@ -333,7 +415,9 @@
     "material": "PLA Matte",
     "color_name": "Dark Blue",
     "color_hex": "042F56",
-    "spoolman_id": "bambulab_pla_mattedarkblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedarkblue_1000_175_n"
+    }
   },
   {
     "id": "A01-D0",
@@ -341,7 +425,9 @@
     "material": "PLA Matte",
     "color_name": "Nardo Gray",
     "color_hex": "757575",
-    "spoolman_id": "bambulab_pla_mattenardogray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattenardogray_1000_175_n"
+    }
   },
   {
     "id": "A01-D3",
@@ -349,7 +435,9 @@
     "material": "PLA Matte",
     "color_name": "Ash Gray",
     "color_hex": "9B9EA0",
-    "spoolman_id": "bambulab_pla_matteashgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteashgray_1000_175_n"
+    }
   },
   {
     "id": "A01-G0",
@@ -357,7 +445,9 @@
     "material": "PLA Matte",
     "color_name": "Apple Green",
     "color_hex": "C2E189",
-    "spoolman_id": "bambulab_pla_matteapplegreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteapplegreen_1000_175_n"
+    }
   },
   {
     "id": "A01-G1",
@@ -365,7 +455,9 @@
     "material": "PLA Matte",
     "color_name": "Grass Green",
     "color_hex": "61C680",
-    "spoolman_id": "bambulab_pla_mattegrassgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattegrassgreen_1000_175_n"
+    }
   },
   {
     "id": "A01-G7",
@@ -373,7 +465,9 @@
     "material": "PLA Matte",
     "color_name": "Dark Green",
     "color_hex": "68724D",
-    "spoolman_id": "bambulab_pla_mattedarkgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedarkgreen_1000_175_n"
+    }
   },
   {
     "id": "A01-K1",
@@ -381,7 +475,9 @@
     "material": "PLA Matte",
     "color_name": "Charcoal",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_mattecharcoal_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattecharcoal_1000_175_n"
+    }
   },
   {
     "id": "A01-N0",
@@ -389,7 +485,9 @@
     "material": "PLA Matte",
     "color_name": "Dark Chocolate",
     "color_hex": "4D3324",
-    "spoolman_id": "bambulab_pla_mattedarkchocolate_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedarkchocolate_1000_175_n"
+    }
   },
   {
     "id": "A01-N1",
@@ -397,7 +495,9 @@
     "material": "PLA Matte",
     "color_name": "Latte Brown",
     "color_hex": "D3B7A7",
-    "spoolman_id": "bambulab_pla_mattelattebrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattelattebrown_1000_175_n"
+    }
   },
   {
     "id": "A01-N2",
@@ -405,7 +505,9 @@
     "material": "PLA Matte",
     "color_name": "Dark Brown",
     "color_hex": "7D6556",
-    "spoolman_id": "bambulab_pla_mattedarkbrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedarkbrown_1000_175_n"
+    }
   },
   {
     "id": "A01-N3",
@@ -413,7 +515,9 @@
     "material": "PLA Matte",
     "color_name": "Caramel",
     "color_hex": "AE835B",
-    "spoolman_id": "bambulab_pla_mattecaramel_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattecaramel_1000_175_n"
+    }
   },
   {
     "id": "A01-P3",
@@ -421,7 +525,9 @@
     "material": "PLA Matte",
     "color_name": "Sakura Pink",
     "color_hex": "E8AFCF",
-    "spoolman_id": "bambulab_pla_mattesakurapink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattesakurapink_1000_175_n"
+    }
   },
   {
     "id": "A01-P4",
@@ -429,7 +535,9 @@
     "material": "PLA Matte",
     "color_name": "Lilac Purple",
     "color_hex": "AE96D4",
-    "spoolman_id": "bambulab_pla_mattelilacpurple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattelilacpurple_1000_175_n"
+    }
   },
   {
     "id": "A01-R1",
@@ -437,7 +545,9 @@
     "material": "PLA Matte",
     "color_name": "Scarlet Red",
     "color_hex": "DE4343",
-    "spoolman_id": "bambulab_pla_mattescarletred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattescarletred_1000_175_n"
+    }
   },
   {
     "id": "A01-R2",
@@ -445,7 +555,9 @@
     "material": "PLA Matte",
     "color_name": "Terracotta",
     "color_hex": "B15533",
-    "spoolman_id": "bambulab_pla_matteterracotta_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteterracotta_1000_175_n"
+    }
   },
   {
     "id": "A01-R3",
@@ -453,7 +565,9 @@
     "material": "PLA Matte",
     "color_name": "Plum",
     "color_hex": "950051",
-    "spoolman_id": "bambulab_pla_matteplum_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteplum_1000_175_n"
+    }
   },
   {
     "id": "A01-R4",
@@ -461,7 +575,9 @@
     "material": "PLA Matte",
     "color_name": "Dark Red",
     "color_hex": "BB3D43",
-    "spoolman_id": "bambulab_pla_mattedarkred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedarkred_1000_175_n"
+    }
   },
   {
     "id": "A01-W2",
@@ -469,7 +585,9 @@
     "material": "PLA Matte",
     "color_name": "Ivory White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_matteivorywhite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_matteivorywhite_1000_175_n"
+    }
   },
   {
     "id": "A01-W3",
@@ -477,7 +595,9 @@
     "material": "PLA Matte",
     "color_name": "Bone White",
     "color_hex": "CBC6B8",
-    "spoolman_id": "bambulab_pla_mattebonewhite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattebonewhite_1000_175_n"
+    }
   },
   {
     "id": "A01-Y2",
@@ -485,7 +605,9 @@
     "material": "PLA Matte",
     "color_name": "Lemon Yellow",
     "color_hex": "F7D959",
-    "spoolman_id": "bambulab_pla_mattelemonyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattelemonyellow_1000_175_n"
+    }
   },
   {
     "id": "A01-Y3",
@@ -493,7 +615,9 @@
     "material": "PLA Matte",
     "color_name": "Desert Tan",
     "color_hex": "E8DBB7",
-    "spoolman_id": "bambulab_pla_mattedeserttan_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_mattedeserttan_1000_175_n"
+    }
   },
   {
     "id": "A02-B2",
@@ -501,7 +625,9 @@
     "material": "PLA Metal",
     "color_name": "Cobalt Blue Metallic",
     "color_hex": "39699E",
-    "spoolman_id": "bambulab_pla_cobaltbluemetallic_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_cobaltbluemetallic_1000_175_n"
+    }
   },
   {
     "id": "A02-D2",
@@ -509,7 +635,9 @@
     "material": "PLA Metal",
     "color_name": "Iron Gray Metallic",
     "color_hex": "43403D",
-    "spoolman_id": "bambulab_pla_irongraymetallic_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_irongraymetallic_1000_175_n"
+    }
   },
   {
     "id": "A02-G2",
@@ -517,7 +645,9 @@
     "material": "PLA Metal",
     "color_name": "Oxide Green Metallic",
     "color_hex": "1D7C6A",
-    "spoolman_id": "bambulab_pla_oxidegreenmetallic_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_oxidegreenmetallic_1000_175_n"
+    }
   },
   {
     "id": "A02-N3",
@@ -525,7 +655,9 @@
     "material": "PLA Metal",
     "color_name": "Copper Brown Metallic",
     "color_hex": "AA6443",
-    "spoolman_id": "bambulab_pla_copperbrownmetallic_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_copperbrownmetallic_1000_175_n"
+    }
   },
   {
     "id": "A02-Y1",
@@ -533,7 +665,9 @@
     "material": "PLA Metal",
     "color_name": "Iridium Gold Metallic",
     "color_hex": "B39B84",
-    "spoolman_id": "bambulab_pla_iridiumgoldmetallic_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_iridiumgoldmetallic_1000_175_n"
+    }
   },
   {
     "id": "A05-M1",
@@ -541,7 +675,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "South Beach",
     "color_hex": "00918B",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A05-M4",
@@ -549,7 +685,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Aurora Purple",
     "color_hex": "7F3696",
-    "spoolman_id": "bambulab_pla_aurorapurple(blue-purple)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_aurorapurple(blue-purple)_1000_175_n"
+    }
   },
   {
     "id": "A05-M8",
@@ -557,7 +695,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Dawn Radiance",
     "color_hex": "EC984C",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A05-T1",
@@ -565,7 +705,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Gilded Rose",
     "color_hex": "FF9425",
-    "spoolman_id": "bambulab_pla_gildedrose(pink-gold)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_gildedrose(pink-gold)_1000_175_n"
+    }
   },
   {
     "id": "A05-T2",
@@ -573,7 +715,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Midnight Blaze",
     "color_hex": "0047BB",
-    "spoolman_id": "bambulab_pla_midnightblaze(blue-red)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_midnightblaze(blue-red)_1000_175_n"
+    }
   },
   {
     "id": "A05-T3",
@@ -581,7 +725,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Neon City",
     "color_hex": "BB22A3",
-    "spoolman_id": "bambulab_pla_neoncity(blue-magenta)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_neoncity(blue-magenta)_1000_175_n"
+    }
   },
   {
     "id": "A05-T4",
@@ -589,7 +735,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Blue Hawaii",
     "color_hex": "70C884",
-    "spoolman_id": "bambulab_pla_bluehawaii(blue-green)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_bluehawaii(blue-green)_1000_175_n"
+    }
   },
   {
     "id": "A05-T5",
@@ -597,7 +745,9 @@
     "material": "PLA Silk Multi-Color",
     "color_name": "Velvet Eclipse (Black-Red)",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_velveteclipse(black-red)_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_velveteclipse(black-red)_1000_175_n"
+    }
   },
   {
     "id": "A06-B0",
@@ -605,7 +755,9 @@
     "material": "PLA Silk+",
     "color_name": "Baby Blue",
     "color_hex": "A8C6EE",
-    "spoolman_id": "bambulab_pla_silk+babyblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+babyblue_1000_175_n"
+    }
   },
   {
     "id": "A06-B1",
@@ -613,7 +765,9 @@
     "material": "PLA Silk+",
     "color_name": "Blue",
     "color_hex": "008BDA",
-    "spoolman_id": "bambulab_pla_silk+blue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+blue_1000_175_n"
+    }
   },
   {
     "id": "A06-D0",
@@ -621,7 +775,9 @@
     "material": "PLA Silk+",
     "color_name": "Titan Gray",
     "color_hex": "5F6367",
-    "spoolman_id": "bambulab_pla_silk+titangray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+titangray_1000_175_n"
+    }
   },
   {
     "id": "A06-D1",
@@ -629,7 +785,9 @@
     "material": "PLA Silk+",
     "color_name": "Silver",
     "color_hex": "C8C8C8",
-    "spoolman_id": "bambulab_pla_silk+silver_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+silver_1000_175_n"
+    }
   },
   {
     "id": "A06-G0",
@@ -637,7 +795,9 @@
     "material": "PLA Silk+",
     "color_name": "Candy Green",
     "color_hex": "018814",
-    "spoolman_id": "bambulab_pla_silk+candygreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+candygreen_1000_175_n"
+    }
   },
   {
     "id": "A06-G1",
@@ -645,7 +805,9 @@
     "material": "PLA Silk+",
     "color_name": "Mint",
     "color_hex": "96DCB9",
-    "spoolman_id": "bambulab_pla_silk+mint_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+mint_1000_175_n"
+    }
   },
   {
     "id": "A06-P0",
@@ -653,7 +815,9 @@
     "material": "PLA Silk+",
     "color_name": "Purple",
     "color_hex": "8671CB",
-    "spoolman_id": "bambulab_pla_silk+purple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+purple_1000_175_n"
+    }
   },
   {
     "id": "A06-R0",
@@ -661,7 +825,9 @@
     "material": "PLA Silk+",
     "color_name": "Candy Red",
     "color_hex": "D02727",
-    "spoolman_id": "bambulab_pla_silk+candyred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+candyred_1000_175_n"
+    }
   },
   {
     "id": "A06-R1",
@@ -669,7 +835,9 @@
     "material": "PLA Silk+",
     "color_name": "Rose Gold",
     "color_hex": "BA9594",
-    "spoolman_id": "bambulab_pla_silk+rosegold_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+rosegold_1000_175_n"
+    }
   },
   {
     "id": "A06-R2",
@@ -677,7 +845,9 @@
     "material": "PLA Silk+",
     "color_name": "Pink",
     "color_hex": "F7ADA6",
-    "spoolman_id": "bambulab_pla_silk+pink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+pink_1000_175_n"
+    }
   },
   {
     "id": "A06-W0",
@@ -685,7 +855,9 @@
     "material": "PLA Silk+",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_silk+white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+white_1000_175_n"
+    }
   },
   {
     "id": "A06-Y0",
@@ -693,7 +865,9 @@
     "material": "PLA Silk+",
     "color_name": "Champagne",
     "color_hex": "F3CFB2",
-    "spoolman_id": "bambulab_pla_silk+champagne_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+champagne_1000_175_n"
+    }
   },
   {
     "id": "A06-Y1",
@@ -701,7 +875,9 @@
     "material": "PLA Silk+",
     "color_name": "Gold",
     "color_hex": "F4A925",
-    "spoolman_id": "bambulab_pla_silk+gold_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_silk+gold_1000_175_n"
+    }
   },
   {
     "id": "A07-D4",
@@ -709,7 +885,9 @@
     "material": "PLA Marble",
     "color_name": "White Marble",
     "color_hex": "F7F3F0",
-    "spoolman_id": "bambulab_pla_whitemarble_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_whitemarble_1000_175_n"
+    }
   },
   {
     "id": "A07-R5",
@@ -717,7 +895,9 @@
     "material": "PLA Marble",
     "color_name": "Red Granite",
     "color_hex": "AD4E38",
-    "spoolman_id": "bambulab_pla_redgranite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_redgranite_1000_175_n"
+    }
   },
   {
     "id": "A08-B7",
@@ -725,7 +905,9 @@
     "material": "PLA Sparkle",
     "color_name": "Royal Purple Sparkle",
     "color_hex": "483D8B",
-    "spoolman_id": "bambulab_pla_royalpurplesparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_royalpurplesparkle_1000_175_n"
+    }
   },
   {
     "id": "A08-D5",
@@ -733,7 +915,9 @@
     "material": "PLA Sparkle",
     "color_name": "Slate Gray Sparkle",
     "color_hex": "8E9089",
-    "spoolman_id": "bambulab_pla_slategraysparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_slategraysparkle_1000_175_n"
+    }
   },
   {
     "id": "A08-G3",
@@ -741,7 +925,9 @@
     "material": "PLA Sparkle",
     "color_name": "Alpine Green Sparkle",
     "color_hex": "3F5443",
-    "spoolman_id": "bambulab_pla_alpinegreensparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_alpinegreensparkle_1000_175_n"
+    }
   },
   {
     "id": "A08-K2",
@@ -749,7 +935,9 @@
     "material": "PLA Sparkle",
     "color_name": "Onyx Black Sparkle",
     "color_hex": "2D2B28",
-    "spoolman_id": "bambulab_pla_onyxblacksparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_onyxblacksparkle_1000_175_n"
+    }
   },
   {
     "id": "A08-R2",
@@ -757,7 +945,9 @@
     "material": "PLA Sparkle",
     "color_name": "Crimson Red Sparkle",
     "color_hex": "792B36",
-    "spoolman_id": "bambulab_pla_crimsonredsparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_crimsonredsparkle_1000_175_n"
+    }
   },
   {
     "id": "A08-Y1",
@@ -765,14 +955,18 @@
     "material": "PLA Sparkle",
     "color_name": "Classic Gold Sparkle",
     "color_hex": "CEA629",
-    "spoolman_id": "bambulab_pla_classicgoldsparkle_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_classicgoldsparkle_1000_175_n"
+    }
   },
   {
     "id": "A09-A0",
     "code": "12002",
     "material": "PLA Tough",
     "color_name": "Orange",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A09-B4",
@@ -780,35 +974,45 @@
     "material": "PLA Basic",
     "color_name": "Blue",
     "color_hex": "0A2989",
-    "spoolman_id": "bambulab_pla_blue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_blue_1000_175_n"
+    }
   },
   {
     "id": "A09-B5",
     "code": "12005",
     "material": "PLA Tough",
     "color_name": "Lavender Blue",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A09-D1",
     "code": "12001",
     "material": "PLA Tough",
     "color_name": "Silver",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A09-R3",
     "code": "12003",
     "material": "PLA Tough",
     "color_name": "Vermilion Red",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A09-Y0",
     "code": "12000",
     "material": "PLA Tough",
     "color_name": "Yellow",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A10-D0",
@@ -816,7 +1020,9 @@
     "material": "PLA Tough+",
     "color_name": "Gray",
     "color_hex": "AFB1AE",
-    "spoolman_id": "bambulab_pla_tough+gray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_tough+gray_1000_175_n"
+    }
   },
   {
     "id": "A10-K0",
@@ -824,7 +1030,9 @@
     "material": "PLA Tough+",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_tough+black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_tough+black_1000_175_n"
+    }
   },
   {
     "id": "A10-W0",
@@ -832,7 +1040,9 @@
     "material": "PLA Tough+",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_tough+white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_tough+white_1000_175_n"
+    }
   },
   {
     "id": "A11-K0",
@@ -840,7 +1050,9 @@
     "material": "PLA Aero",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A11-W0",
@@ -848,7 +1060,9 @@
     "material": "PLA Aero",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A12-A0",
@@ -856,7 +1070,9 @@
     "material": "PLA Glow",
     "color_name": "Glow Orange",
     "color_hex": "FF9D5B",
-    "spoolman_id": "bambulab_pla_gloworange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_gloworange_1000_175_n"
+    }
   },
   {
     "id": "A12-B0",
@@ -864,7 +1080,9 @@
     "material": "PLA Glow",
     "color_name": "Glow Blue",
     "color_hex": "7AC0E9",
-    "spoolman_id": "bambulab_pla_glowblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_glowblue_1000_175_n"
+    }
   },
   {
     "id": "A12-G0",
@@ -872,7 +1090,9 @@
     "material": "PLA Glow",
     "color_name": "Glow Green",
     "color_hex": "A1FFAC",
-    "spoolman_id": "bambulab_pla_glowgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_glowgreen_1000_175_n"
+    }
   },
   {
     "id": "A12-R0",
@@ -880,7 +1100,9 @@
     "material": "PLA Glow",
     "color_name": "Glow Pink",
     "color_hex": "F17B8F",
-    "spoolman_id": "bambulab_pla_glowpink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_glowpink_1000_175_n"
+    }
   },
   {
     "id": "A12-Y0",
@@ -888,7 +1110,9 @@
     "material": "PLA Glow",
     "color_name": "Glow Yellow",
     "color_hex": "F8FF80",
-    "spoolman_id": "bambulab_pla_glowyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_glowyellow_1000_175_n"
+    }
   },
   {
     "id": "A15-B0",
@@ -896,7 +1120,9 @@
     "material": "PLA Galaxy",
     "color_name": "Purple",
     "color_hex": "594177",
-    "spoolman_id": "bambulab_pla_purplegalaxy_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_purplegalaxy_1000_175_n"
+    }
   },
   {
     "id": "A15-G0",
@@ -904,7 +1130,9 @@
     "material": "PLA Galaxy",
     "color_name": "Green",
     "color_hex": "3B665E",
-    "spoolman_id": "bambulab_pla_greengalaxy_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_greengalaxy_1000_175_n"
+    }
   },
   {
     "id": "A15-G1",
@@ -912,7 +1140,9 @@
     "material": "PLA Galaxy",
     "color_name": "Nebulae",
     "color_hex": "424379",
-    "spoolman_id": "bambulab_pla_nebulaegalaxy_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_nebulaegalaxy_1000_175_n"
+    }
   },
   {
     "id": "A15-R0",
@@ -920,7 +1150,9 @@
     "material": "PLA Galaxy",
     "color_name": "Brown",
     "color_hex": "684A43",
-    "spoolman_id": "bambulab_pla_browngalaxy_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_browngalaxy_1000_175_n"
+    }
   },
   {
     "id": "A16-G0",
@@ -928,7 +1160,9 @@
     "material": "PLA Wood",
     "color_name": "Classic Birch",
     "color_hex": "918669",
-    "spoolman_id": "bambulab_pla+wood_classicbirch_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_classicbirch_1000_175_n"
+    }
   },
   {
     "id": "A16-K0",
@@ -936,7 +1170,9 @@
     "material": "PLA Wood",
     "color_name": "Black Walnut",
     "color_hex": "4F3F24",
-    "spoolman_id": "bambulab_pla+wood_blackwalnut_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_blackwalnut_1000_175_n"
+    }
   },
   {
     "id": "A16-N0",
@@ -944,7 +1180,9 @@
     "material": "PLA Wood",
     "color_name": "Clay Brown",
     "color_hex": "995F11",
-    "spoolman_id": "bambulab_pla+wood_claybrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_claybrown_1000_175_n"
+    }
   },
   {
     "id": "A16-R0",
@@ -952,7 +1190,9 @@
     "material": "PLA Wood",
     "color_name": "Rosewood",
     "color_hex": "4C241C",
-    "spoolman_id": "bambulab_pla+wood_rosewood_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_rosewood_1000_175_n"
+    }
   },
   {
     "id": "A16-W0",
@@ -960,7 +1200,9 @@
     "material": "PLA Wood",
     "color_name": "White Oak",
     "color_hex": "D6CCA3",
-    "spoolman_id": "bambulab_pla+wood_whiteoak_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_whiteoak_1000_175_n"
+    }
   },
   {
     "id": "A16-Y0",
@@ -968,7 +1210,9 @@
     "material": "PLA Wood",
     "color_name": "Ochre Yellow",
     "color_hex": "C98935",
-    "spoolman_id": "bambulab_pla+wood_ochreyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla+wood_ochreyellow_1000_175_n"
+    }
   },
   {
     "id": "A17-A0",
@@ -976,7 +1220,9 @@
     "material": "PLA Translucent",
     "color_name": "Orange",
     "color_hex": "F74E02",
-    "spoolman_id": "bambulab_pla_translucentorange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentorange_1000_175_n"
+    }
   },
   {
     "id": "A17-B0",
@@ -984,7 +1230,9 @@
     "material": "PLA Translucent",
     "color_name": "Ice Blue",
     "color_hex": "B8CDE9",
-    "spoolman_id": "bambulab_pla_translucenticeblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucenticeblue_1000_175_n"
+    }
   },
   {
     "id": "A17-B1",
@@ -992,7 +1240,9 @@
     "material": "PLA Translucent",
     "color_name": "Blue",
     "color_hex": "0047BB",
-    "spoolman_id": "bambulab_pla_translucentblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentblue_1000_175_n"
+    }
   },
   {
     "id": "A17-G0",
@@ -1000,7 +1250,9 @@
     "material": "PLA Translucent",
     "color_name": "Light Jade",
     "color_hex": "96D8AF",
-    "spoolman_id": "bambulab_pla_translucentlightjade_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentlightjade_1000_175_n"
+    }
   },
   {
     "id": "A17-P0",
@@ -1008,7 +1260,9 @@
     "material": "PLA Translucent",
     "color_name": "Purple",
     "color_hex": "8344B0",
-    "spoolman_id": "bambulab_pla_translucentpurple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentpurple_1000_175_n"
+    }
   },
   {
     "id": "A17-P1",
@@ -1016,7 +1270,9 @@
     "material": "PLA Translucent",
     "color_name": "Lavender",
     "color_hex": "B8ACD6",
-    "spoolman_id": "bambulab_pla_translucentlavender_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentlavender_1000_175_n"
+    }
   },
   {
     "id": "A17-R0",
@@ -1024,7 +1280,9 @@
     "material": "PLA Translucent",
     "color_name": "Red",
     "color_hex": "B50011",
-    "spoolman_id": "bambulab_pla_translucentred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentred_1000_175_n"
+    }
   },
   {
     "id": "A17-R1",
@@ -1032,7 +1290,9 @@
     "material": "PLA Translucent",
     "color_name": "Cherry Pink",
     "color_hex": "F5B6CD",
-    "spoolman_id": "bambulab_pla_translucentcherrypink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentcherrypink_1000_175_n"
+    }
   },
   {
     "id": "A17-Y0",
@@ -1040,7 +1300,9 @@
     "material": "PLA Translucent",
     "color_name": "Mellow Yellow",
     "color_hex": "F5DBAB",
-    "spoolman_id": "bambulab_pla_translucentmellowyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_translucentmellowyellow_1000_175_n"
+    }
   },
   {
     "id": "A18-B0",
@@ -1048,7 +1310,9 @@
     "material": "PLA Lite",
     "color_name": "Cyan",
     "color_hex": "4DAFDA",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-B1",
@@ -1056,7 +1320,9 @@
     "material": "PLA Lite",
     "color_name": "Blue",
     "color_hex": "004EA8",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-D0",
@@ -1064,7 +1330,9 @@
     "material": "PLA Lite",
     "color_name": "Gray",
     "color_hex": "999D9D",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-K0",
@@ -1072,14 +1340,18 @@
     "material": "PLA Lite",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-P0",
     "code": "16602",
     "material": "PLA Lite",
     "color_name": "Matte Beige",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-R0",
@@ -1087,7 +1359,9 @@
     "material": "PLA Lite",
     "color_name": "Red",
     "color_hex": "C6001A",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-W0",
@@ -1095,7 +1369,9 @@
     "material": "PLA Lite",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A18-Y0",
@@ -1103,7 +1379,9 @@
     "material": "PLA Lite",
     "color_name": "Yellow",
     "color_hex": "EFE255",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "A50-B6",
@@ -1111,7 +1389,9 @@
     "material": "PLA-CF",
     "color_name": "Royal Blue",
     "color_hex": "2842AD",
-    "spoolman_id": "bambulab_pla-cf_royalblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla-cf_royalblue_1000_175_n"
+    }
   },
   {
     "id": "A50-D6",
@@ -1119,7 +1399,9 @@
     "material": "PLA-CF",
     "color_name": "Lava Gray",
     "color_hex": "4d5054",
-    "spoolman_id": "bambulab_pla-cf_lavagray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla-cf_lavagray_1000_175_n"
+    }
   },
   {
     "id": "A50-K0",
@@ -1127,7 +1409,9 @@
     "material": "PLA-CF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla-cf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla-cf_black_1000_175_n"
+    }
   },
   {
     "id": "B00-A0",
@@ -1135,7 +1419,9 @@
     "material": "ABS",
     "color_name": "Orange",
     "color_hex": "FF6A13",
-    "spoolman_id": "bambulab_abs_orange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_orange_1000_175_n"
+    }
   },
   {
     "id": "B00-B0",
@@ -1143,7 +1429,9 @@
     "material": "ABS",
     "color_name": "Blue",
     "color_hex": "0A2CA5",
-    "spoolman_id": "bambulab_abs_blue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_blue_1000_175_n"
+    }
   },
   {
     "id": "B00-B4",
@@ -1151,7 +1439,9 @@
     "material": "ABS",
     "color_name": "Azure",
     "color_hex": "489FDF",
-    "spoolman_id": "bambulab_abs_azure_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_azure_1000_175_n"
+    }
   },
   {
     "id": "B00-B6",
@@ -1159,7 +1449,9 @@
     "material": "ABS",
     "color_name": "Navy Blue",
     "color_hex": "0C2340",
-    "spoolman_id": "bambulab_abs_navyblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_navyblue_1000_175_n"
+    }
   },
   {
     "id": "B00-D1",
@@ -1167,7 +1459,9 @@
     "material": "ABS",
     "color_name": "Silver",
     "color_hex": "87909A",
-    "spoolman_id": "bambulab_abs_silver_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_silver_1000_175_n"
+    }
   },
   {
     "id": "B00-G6",
@@ -1175,7 +1469,9 @@
     "material": "ABS",
     "color_name": "Bambu Green",
     "color_hex": "00AE42",
-    "spoolman_id": "bambulab_abs_bambugreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_bambugreen_1000_175_n"
+    }
   },
   {
     "id": "B00-G7",
@@ -1183,7 +1479,9 @@
     "material": "ABS",
     "color_name": "Olive",
     "color_hex": "789D4A",
-    "spoolman_id": "bambulab_abs_olive_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_olive_1000_175_n"
+    }
   },
   {
     "id": "B00-K0",
@@ -1191,7 +1489,9 @@
     "material": "ABS",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_abs_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_black_1000_175_n"
+    }
   },
   {
     "id": "B00-R0",
@@ -1199,7 +1499,9 @@
     "material": "ABS",
     "color_name": "Red",
     "color_hex": "D32941",
-    "spoolman_id": "bambulab_abs_red_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_red_1000_175_n"
+    }
   },
   {
     "id": "B00-W0",
@@ -1207,7 +1509,9 @@
     "material": "ABS",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_abs_white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_white_1000_175_n"
+    }
   },
   {
     "id": "B00-Y0",
@@ -1215,7 +1519,9 @@
     "material": "ABS",
     "color_name": "Beige",
     "color_hex": "DFD1A7",
-    "spoolman_id": "bambulab_abs_yellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_yellow_1000_175_n"
+    }
   },
   {
     "id": "B00-Y1",
@@ -1223,7 +1529,9 @@
     "material": "ABS",
     "color_name": "Tangerine Yellow",
     "color_hex": "FFC72C",
-    "spoolman_id": "bambulab_abs_tangerineyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_tangerineyellow_1000_175_n"
+    }
   },
   {
     "id": "B01-B0",
@@ -1231,7 +1539,9 @@
     "material": "ASA",
     "color_name": "Blue",
     "color_hex": "2140B4",
-    "spoolman_id": "bambulab_asa_blue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_blue_1000_175_n"
+    }
   },
   {
     "id": "B01-D0",
@@ -1239,7 +1549,9 @@
     "material": "ASA",
     "color_name": "Gray",
     "color_hex": "8A949E",
-    "spoolman_id": "bambulab_asa_gray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_gray_1000_175_n"
+    }
   },
   {
     "id": "B01-G0",
@@ -1247,7 +1559,9 @@
     "material": "ASA",
     "color_name": "Green",
     "color_hex": "00A6A0",
-    "spoolman_id": "bambulab_asa_green_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_green_1000_175_n"
+    }
   },
   {
     "id": "B01-K0",
@@ -1255,7 +1569,9 @@
     "material": "ASA",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_asa_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_black_1000_175_n"
+    }
   },
   {
     "id": "B01-R0",
@@ -1263,7 +1579,9 @@
     "material": "ASA",
     "color_name": "Red",
     "color_hex": "E02928",
-    "spoolman_id": "bambulab_asa_red_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_red_1000_175_n"
+    }
   },
   {
     "id": "B01-W0",
@@ -1271,7 +1589,9 @@
     "material": "ASA",
     "color_name": "White",
     "color_hex": "FFFAF2",
-    "spoolman_id": "bambulab_asa_white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_white_1000_175_n"
+    }
   },
   {
     "id": "B02-W0",
@@ -1279,7 +1599,9 @@
     "material": "ASA Aero",
     "color_name": "White",
     "color_hex": "F5F1DD",
-    "spoolman_id": "bambulab_asa_whiteaero_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa_whiteaero_1000_175_n"
+    }
   },
   {
     "id": "B50-A0",
@@ -1287,7 +1609,9 @@
     "material": "ABS-GF",
     "color_name": "Orange",
     "color_hex": "F48438",
-    "spoolman_id": "bambulab_abs-gf_orange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs-gf_orange_1000_175_n"
+    }
   },
   {
     "id": "B50-K0",
@@ -1295,7 +1619,9 @@
     "material": "ABS-GF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_abs-gf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs-gf_black_1000_175_n"
+    }
   },
   {
     "id": "B50-R0",
@@ -1303,7 +1629,9 @@
     "material": "ABS-GF",
     "color_name": "Red",
     "color_hex": "E83100",
-    "spoolman_id": "bambulab_abs-gf_red_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs-gf_red_1000_175_n"
+    }
   },
   {
     "id": "B50-W0",
@@ -1311,7 +1639,9 @@
     "material": "ABS-GF",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_abs-gf_white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs-gf_white_1000_175_n"
+    }
   },
   {
     "id": "B51-K0",
@@ -1319,7 +1649,9 @@
     "material": "ASA-CF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_asa-cf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_asa-cf_black_1000_175_n"
+    }
   },
   {
     "id": "C00-C0",
@@ -1327,7 +1659,9 @@
     "material": "PC",
     "color_name": "Clear Black",
     "color_hex": "686865",
-    "spoolman_id": "bambulab_pc_clearblack_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_clearblack_1000_175_n"
+    }
   },
   {
     "id": "C00-C1",
@@ -1335,7 +1669,9 @@
     "material": "PC",
     "color_name": "Transparent",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pc_transparent_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_transparent_1000_175_n"
+    }
   },
   {
     "id": "C00-K0",
@@ -1343,7 +1679,9 @@
     "material": "PC",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pc_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_black_1000_175_n"
+    }
   },
   {
     "id": "C00-W0",
@@ -1351,7 +1689,9 @@
     "material": "PC",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pc_white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_white_1000_175_n"
+    }
   },
   {
     "id": "C01-D0",
@@ -1359,7 +1699,9 @@
     "material": "PC FR",
     "color_name": "Gray",
     "color_hex": "A8A8AA",
-    "spoolman_id": "bambulab_pc_frgrey_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_frgrey_1000_175_n"
+    }
   },
   {
     "id": "C01-K0",
@@ -1367,7 +1709,9 @@
     "material": "PC FR",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pc_frblack_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_frblack_1000_175_n"
+    }
   },
   {
     "id": "C01-W0",
@@ -1375,7 +1719,9 @@
     "material": "PC FR",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pc_frwhite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pc_frwhite_1000_175_n"
+    }
   },
   {
     "id": "G00-D00",
@@ -1383,7 +1729,9 @@
     "material": "PETG Basic",
     "color_name": "Gray",
     "color_hex": "7F7E83",
-    "spoolman_id": "bambulab_petg_gray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_gray_1000_175_n"
+    }
   },
   {
     "id": "G00-K00",
@@ -1391,7 +1739,9 @@
     "material": "PETG Basic",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_petg_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_black_1000_175_n"
+    }
   },
   {
     "id": "G00-N00",
@@ -1399,7 +1749,9 @@
     "material": "PETG Basic",
     "color_name": "Dark Brown",
     "color_hex": "4f2c1d",
-    "spoolman_id": null
+    "integrations": {
+      "spoolman": null
+    }
   },
   {
     "id": "G00-R00",
@@ -1407,7 +1759,9 @@
     "material": "PETG Basic",
     "color_name": "Red",
     "color_hex": "D6001C",
-    "spoolman_id": "bambulab_petg_red_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_red_1000_175_n"
+    }
   },
   {
     "id": "G00-W00",
@@ -1415,7 +1769,9 @@
     "material": "PETG Basic",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_petg_white_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_white_1000_175_n"
+    }
   },
   {
     "id": "G01-A0",
@@ -1423,7 +1779,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Orange",
     "color_hex": "FF911A",
-    "spoolman_id": "bambulab_petg_translucentorange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentorange_1000_175_n"
+    }
   },
   {
     "id": "G01-B0",
@@ -1431,7 +1789,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Light Blue",
     "color_hex": "61B0FF",
-    "spoolman_id": "bambulab_petg_translucentlightblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentlightblue_1000_175_n"
+    }
   },
   {
     "id": "G01-C0",
@@ -1439,7 +1799,9 @@
     "material": "PETG Translucent",
     "color_name": "Clear",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_petg_clear_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_clear_1000_175_n"
+    }
   },
   {
     "id": "G01-D0",
@@ -1447,7 +1809,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Gray",
     "color_hex": "8E8E8E",
-    "spoolman_id": "bambulab_petg_translucentgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentgray_1000_175_n"
+    }
   },
   {
     "id": "G01-G0",
@@ -1455,7 +1819,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Olive",
     "color_hex": "748C45",
-    "spoolman_id": "bambulab_petg_translucentolive_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentolive_1000_175_n"
+    }
   },
   {
     "id": "G01-G1",
@@ -1463,7 +1829,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Teal",
     "color_hex": "77EDD7",
-    "spoolman_id": "bambulab_petg_translucentteal_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentteal_1000_175_n"
+    }
   },
   {
     "id": "G01-N0",
@@ -1471,7 +1839,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Brown",
     "color_hex": "C9A381",
-    "spoolman_id": "bambulab_petg_translucentbrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentbrown_1000_175_n"
+    }
   },
   {
     "id": "G01-P0",
@@ -1479,7 +1849,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Purple",
     "color_hex": "D6ABFF",
-    "spoolman_id": "bambulab_petg_translucentpurple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentpurple_1000_175_n"
+    }
   },
   {
     "id": "G01-P1",
@@ -1487,7 +1859,9 @@
     "material": "PETG Translucent",
     "color_name": "Translucent Pink",
     "color_hex": "F9C1BD",
-    "spoolman_id": "bambulab_petg_translucentpink_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_translucentpink_1000_175_n"
+    }
   },
   {
     "id": "G02-A0",
@@ -1495,7 +1869,9 @@
     "material": "PETG HF",
     "color_name": "Orange",
     "color_hex": "F75403",
-    "spoolman_id": "bambulab_petg_hforange_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hforange_1000_175_n"
+    }
   },
   {
     "id": "G02-B0",
@@ -1503,7 +1879,9 @@
     "material": "PETG HF",
     "color_name": "Blue",
     "color_hex": "002E96",
-    "spoolman_id": "bambulab_petg_hfblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfblue_1000_175_n"
+    }
   },
   {
     "id": "G02-B1",
@@ -1511,7 +1889,9 @@
     "material": "PETG HF",
     "color_name": "Lake Blue",
     "color_hex": "1F79E5",
-    "spoolman_id": "bambulab_petg_hflakeblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hflakeblue_1000_175_n"
+    }
   },
   {
     "id": "G02-D0",
@@ -1519,7 +1899,9 @@
     "material": "PETG HF",
     "color_name": "Gray",
     "color_hex": "ADB1B2",
-    "spoolman_id": "bambulab_petg_hfgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfgray_1000_175_n"
+    }
   },
   {
     "id": "G02-D1",
@@ -1527,7 +1909,9 @@
     "material": "PETG HF",
     "color_name": "Dark Gray",
     "color_hex": "515151",
-    "spoolman_id": "bambulab_petg_hfdarkgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfdarkgray_1000_175_n"
+    }
   },
   {
     "id": "G02-G0",
@@ -1535,7 +1919,9 @@
     "material": "PETG HF",
     "color_name": "Green",
     "color_hex": "00AE42",
-    "spoolman_id": "bambulab_petg_hfgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfgreen_1000_175_n"
+    }
   },
   {
     "id": "G02-G1",
@@ -1543,7 +1929,9 @@
     "material": "PETG HF",
     "color_name": "Lime Green",
     "color_hex": "6EE53C",
-    "spoolman_id": "bambulab_petg_hflimegreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hflimegreen_1000_175_n"
+    }
   },
   {
     "id": "G02-G2",
@@ -1551,7 +1939,9 @@
     "material": "PETG HF",
     "color_name": "Forest Green",
     "color_hex": "39541A",
-    "spoolman_id": "bambulab_petg_hfforestgreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfforestgreen_1000_175_n"
+    }
   },
   {
     "id": "G02-K0",
@@ -1559,7 +1949,9 @@
     "material": "PETG HF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_petg_hfblack_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfblack_1000_175_n"
+    }
   },
   {
     "id": "G02-N1",
@@ -1567,7 +1959,9 @@
     "material": "PETG HF",
     "color_name": "Peanut Brown",
     "color_hex": "875718",
-    "spoolman_id": "bambulab_petg_hfpeanutbrown_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfpeanutbrown_1000_175_n"
+    }
   },
   {
     "id": "G02-R0",
@@ -1575,7 +1969,9 @@
     "material": "PETG HF",
     "color_name": "Red",
     "color_hex": "BC0900",
-    "spoolman_id": "bambulab_petg_hfred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfred_1000_175_n"
+    }
   },
   {
     "id": "G02-W0",
@@ -1583,7 +1979,9 @@
     "material": "PETG HF",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_petg_hfwhite_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfwhite_1000_175_n"
+    }
   },
   {
     "id": "G02-Y0",
@@ -1591,7 +1989,9 @@
     "material": "PETG HF",
     "color_name": "Yellow",
     "color_hex": "FFD00B",
-    "spoolman_id": "bambulab_petg_hfyellow_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfyellow_1000_175_n"
+    }
   },
   {
     "id": "G02-Y1",
@@ -1599,7 +1999,9 @@
     "material": "PETG HF",
     "color_name": "Cream",
     "color_hex": "F9DFB9",
-    "spoolman_id": "bambulab_petg_hfcream_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg_hfcream_1000_175_n"
+    }
   },
   {
     "id": "G50-D6",
@@ -1607,7 +2009,9 @@
     "material": "PETG-CF",
     "color_name": "Titan Gray",
     "color_hex": "565656",
-    "spoolman_id": "bambulab_petg-cf_titangray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg-cf_titangray_1000_175_n"
+    }
   },
   {
     "id": "G50-G7",
@@ -1615,7 +2019,9 @@
     "material": "PETG-CF",
     "color_name": "Malachite Green",
     "color_hex": "16b08e",
-    "spoolman_id": "bambulab_petg-cf_malachitegreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg-cf_malachitegreen_1000_175_n"
+    }
   },
   {
     "id": "G50-K0",
@@ -1623,7 +2029,9 @@
     "material": "PETG-CF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_petg-cf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg-cf_black_1000_175_n"
+    }
   },
   {
     "id": "G50-P7",
@@ -1631,7 +2039,9 @@
     "material": "PETG-CF",
     "color_name": "Violet Purple",
     "color_hex": "583061",
-    "spoolman_id": "bambulab_petg-cf_violetpurple_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg-cf_violetpurple_1000_175_n"
+    }
   },
   {
     "id": "G50-R4",
@@ -1639,7 +2049,9 @@
     "material": "PETG-CF",
     "color_name": "Brick Red",
     "color_hex": "9f332a",
-    "spoolman_id": "bambulab_petg-cf_brickred_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_petg-cf_brickred_1000_175_n"
+    }
   },
   {
     "id": "N04-K0",
@@ -1647,7 +2059,9 @@
     "material": "PAHT-CF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_paht-cf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_paht-cf_black_1000_175_n"
+    }
   },
   {
     "id": "N08-K0",
@@ -1655,7 +2069,9 @@
     "material": "PA6-GF",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pa6-gf_black_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pa6-gf_black_1000_175_n"
+    }
   },
   {
     "id": "S00-W0",
@@ -1663,7 +2079,9 @@
     "material": "Support for PLA/PETG",
     "color_name": "Nature",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_supportforpla/petgnature_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_supportforpla/petgnature_500_175_n"
+    }
   },
   {
     "id": "S02-W0",
@@ -1671,7 +2089,9 @@
     "material": "Support for PLA/PETG",
     "color_name": "Nature",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_supportforpla/petgnature_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_supportforpla/petgnature_500_175_n"
+    }
   },
   {
     "id": "S02-W1",
@@ -1679,7 +2099,9 @@
     "material": "Support for PLA (New Version)",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_pla_supportforplawhite_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_supportforplawhite_500_175_n"
+    }
   },
   {
     "id": "S03-G1",
@@ -1687,7 +2109,9 @@
     "material": "Support for PA/PET",
     "color_name": "Green",
     "color_hex": "C0DF16",
-    "spoolman_id": "bambulab_pa_supportforpa/pet_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pa_supportforpa/pet_500_175_n"
+    }
   },
   {
     "id": "S04-Y0",
@@ -1695,7 +2119,9 @@
     "material": "PVA",
     "color_name": "Clear",
     "color_hex": "F0F1A8",
-    "spoolman_id": "bambulab_pva_clear_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pva_clear_500_175_n"
+    }
   },
   {
     "id": "S05-C0",
@@ -1703,7 +2129,9 @@
     "material": "Support for PLA/PETG",
     "color_name": "Black",
     "color_hex": "000000",
-    "spoolman_id": "bambulab_pla_supportforpla/petgblack_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_pla_supportforpla/petgblack_500_175_n"
+    }
   },
   {
     "id": "S06-W0",
@@ -1711,7 +2139,9 @@
     "material": "Support for ABS",
     "color_name": "White",
     "color_hex": "FFFFFF",
-    "spoolman_id": "bambulab_abs_supportforabs_500_175_n"
+    "integrations": {
+      "spoolman": "bambulab_abs_supportforabs_500_175_n"
+    }
   },
   {
     "id": "U02-B0",
@@ -1719,7 +2149,9 @@
     "material": "TPU for AMS",
     "color_name": "Blue",
     "color_hex": "5898DD",
-    "spoolman_id": "bambulab_tpu_foramsblue_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_tpu_foramsblue_1000_175_n"
+    }
   },
   {
     "id": "U02-D0",
@@ -1727,7 +2159,9 @@
     "material": "TPU for AMS",
     "color_name": "Gray",
     "color_hex": "939393",
-    "spoolman_id": "bambulab_tpu_foramsgray_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_tpu_foramsgray_1000_175_n"
+    }
   },
   {
     "id": "U02-K0",
@@ -1735,6 +2169,8 @@
     "material": "TPU for AMS",
     "color_name": "Neon Green",
     "color_hex": "90FF1A",
-    "spoolman_id": "bambulab_tpu_foramsneongreen_1000_175_n"
+    "integrations": {
+      "spoolman": "bambulab_tpu_foramsneongreen_1000_175_n"
+    }
   }
 ]

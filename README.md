@@ -1,6 +1,6 @@
-# Bambu Lab RFID to SpoolmanDB Mapping
+# Bambu Filaments
 
-Maps Bambu Lab spool RFID variant IDs to [SpoolmanDB](https://github.com/Donkie/SpoolmanDB) filament IDs, color names and hex codes.
+A catalog of Bambu Lab filaments, keyed by RFID variant ID with official color names, hex codes, and cross-references to other filament databases.
 
 ## What is a variant ID?
 
@@ -9,7 +9,7 @@ Every Bambu Lab spool has an RFID tag containing a **variant ID** (e.g. `A01-B6`
 - Stored on the RFID tag (Block 1, bytes 0-7)
 - Available via MQTT as `tray_id_name`
 
-This project maps these variant IDs to [SpoolmanDB](https://github.com/Donkie/SpoolmanDB) filament entries, so you can look up full metadata (density, temperatures, color hex, etc.) from a scanned spool.
+This catalog lets you look up full metadata for a scanned spool, and cross-reference into [SpoolmanDB](https://github.com/Donkie/SpoolmanDB) (and other integrations in the future) when you need data like density and temperatures.
 
 ## JSON format
 
@@ -22,18 +22,20 @@ Each entry in [`filaments.json`](filaments.json):
   "material": "PLA Matte",
   "color_name": "Dark Blue",
   "color_hex": "042F56",
-  "spoolman_id": "bambulab_pla_mattedarkblue_1000_175_n"
+  "integrations": {
+    "spoolman": "bambulab_pla_mattedarkblue_1000_175_n"
+  }
 }
 ```
 
 | Field | Description |
-|-------|-------------|
+| ----- | ----------- |
 | `id` | Variant ID from the RFID tag / MQTT `tray_id_name` |
 | `code` | Bambu Lab 5-digit product code |
 | `material` | Material type (e.g. PLA Basic, PLA Matte, PETG HF) |
 | `color_name` | Official Bambu Lab color name |
 | `color_hex` | Hex color code (absent if unknown) |
-| `spoolman_id` | SpoolmanDB filament ID (`null` if not yet in SpoolmanDB) |
+| `integrations.spoolman` | SpoolmanDB filament ID (`null` if not yet in SpoolmanDB) |
 
 ## Regenerate
 
@@ -57,5 +59,5 @@ The script downloads three sources, cross-references them, and outputs `filament
 
 1. Parse the RFID library README for variant IDs, grouped by material section (PLA Matte, PETG HF, etc.)
 2. Map each section to the corresponding SpoolmanDB material and construct the expected name (e.g. PLA Matte + "Dark Blue" -> "Matte Dark Blue" in SpoolmanDB)
-3. Match against SpoolmanDB using: exact name, normalized name, Grey/Gray swap, then partial match for multi-color entries
+3. Match against SpoolmanDB using: exact name, normalized name, Grey/Gray swap, match after stripping parenthesized suffixes, then hex code as a last resort
 4. Color names use BambuStudio's official names when available, with SpoolmanDB as fallback

@@ -141,20 +141,6 @@
     border-bottom: 1px solid var(--border);
     position: relative;
   }
-  .swatch .id {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    padding: 3px 8px;
-    background: rgba(0,0,0,0.55);
-    color: #fff;
-    font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
-    border-radius: 6px;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    backdrop-filter: blur(4px);
-  }
-  .swatch .id:hover { background: rgba(0,0,0,0.75); }
   .body {
     padding: 12px 14px;
     display: flex;
@@ -170,6 +156,27 @@
     color: var(--muted);
     font-size: 13px;
   }
+  .hex {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .hex code {
+    font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 0.02em;
+    backdrop-filter: blur(4px);
+  }
+  .hex code:hover { background: rgba(0,0,0,0.75); }
   .meta {
     margin-top: 8px;
     display: flex;
@@ -179,7 +186,13 @@
     color: var(--muted);
     font-variant-numeric: tabular-nums;
   }
-  .meta .sku { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .meta .sku,
+  .meta .id {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    cursor: pointer;
+  }
+  .meta .sku:hover,
+  .meta .id:hover { color: var(--text); }
   .meta a {
     color: var(--accent);
     text-decoration: none;
@@ -292,26 +305,40 @@
       const card = document.createElement('div');
       card.className = 'card';
 
-      const temp = (f.temp_min != null && f.temp_max != null) ? `${f.temp_min}–${f.temp_max}°C` : '';
+      const hexes = (f.color_hexes && f.color_hexes.length ? f.color_hexes : (f.color_hex ? [f.color_hex] : []))
+        .map(h => h.endsWith('FF') ? '#' + h.slice(0, 6) : '#' + h);
 
       card.innerHTML = `
         <div class="swatch" style="${swatchStyle(f.color_hexes || [f.color_hex])}">
-          <span class="id" title="Click to copy">${f.id}</span>
+          ${hexes.length ? `<div class="hex">${hexes.map(h => `<code title="Click to copy">${h}</code>`).join('')}</div>` : ''}
         </div>
         <div class="body">
           <div class="name">${escape(f.color_name || '—')}</div>
           <div class="product">${escape(f.product || f.material || '')}</div>
           <div class="meta">
-            <span class="sku">${f.sku ? 'SKU ' + f.sku : ''}</span>
-            <span>${temp}</span>
+            <span class="sku" title="Click to copy">${f.sku ? 'SKU ' + f.sku : ''}</span>
+            <span class="id" title="Click to copy">${f.id}</span>
           </div>
         </div>
       `;
 
-      card.querySelector('.id').addEventListener('click', () => {
+      card.querySelectorAll('.hex code').forEach(el => {
+        el.addEventListener('click', () => {
+          navigator.clipboard.writeText(el.textContent);
+          showToast(`Copied ${el.textContent}`);
+        });
+      });
+      const idEl = card.querySelector('.meta .id');
+      idEl.addEventListener('click', () => {
         navigator.clipboard.writeText(f.id);
         showToast(`Copied ${f.id}`);
       });
+      if (f.sku) {
+        card.querySelector('.meta .sku').addEventListener('click', () => {
+          navigator.clipboard.writeText(f.sku);
+          showToast(`Copied ${f.sku}`);
+        });
+      }
 
       return card;
     }));

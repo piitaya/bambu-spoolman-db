@@ -2,6 +2,8 @@
 
 A catalog of Bambu Lab filaments, keyed by RFID variant ID with official color names, hex codes, and cross-references to other filament databases.
 
+Browse the catalog at [piitaya.github.io/bambu-filaments](https://piitaya.github.io/bambu-filaments/).
+
 ## What is a variant ID?
 
 Every Bambu Lab spool has an RFID tag containing a **variant ID** (e.g. `A01-B6`) that uniquely identifies the filament product (material + color). This ID is:

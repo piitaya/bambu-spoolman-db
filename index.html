@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bambu Filaments</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --surface: #fff;
+    --border: #e5e5e5;
+    --text: #111;
+    --muted: #666;
+    --accent: #2563eb;
+    --radius: 10px;
+    --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f10;
+      --surface: #18181b;
+      --border: #27272a;
+      --text: #f4f4f5;
+      --muted: #a1a1aa;
+      --accent: #60a5fa;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 2px 8px rgba(0,0,0,0.2);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    padding: 32px 24px 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin: 0 0 4px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .subtitle a { color: inherit; }
+  .controls {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+    border-bottom: 1px solid var(--border);
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .row[hidden] { display: none; }
+  .filter-label {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    min-width: 64px;
+  }
+  .search {
+    flex: 1;
+    min-width: 220px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: var(--radius);
+    font: inherit;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .search:focus { border-color: var(--accent); }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .chip {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.15s;
+    user-select: none;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .count {
+    color: var(--muted);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .swatch {
+    height: 96px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .swatch .id {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 3px 8px;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    border-radius: 6px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+  }
+  .swatch .id:hover { background: rgba(0,0,0,0.75); }
+  .body {
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .product {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .meta {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta .sku { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .meta a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .meta a:hover { text-decoration: underline; }
+  .empty {
+    text-align: center;
+    padding: 64px 16px;
+    color: var(--muted);
+  }
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--text);
+    color: var(--bg);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+  }
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bambu Filaments</h1>
+  <div class="subtitle">
+    Catalog of Bambu Lab filaments keyed by RFID variant ID.
+    <a href="https://github.com/piitaya/bambu-filaments">GitHub</a>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input class="search" type="search" placeholder="Search by color, product, ID, or SKU" autofocus>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="row">
+    <span class="filter-label">Material</span>
+    <div class="chips" id="material-chips"></div>
+  </div>
+  <div class="row" id="product-row" hidden>
+    <span class="filter-label">Product</span>
+    <div class="chips" id="product-chips"></div>
+  </div>
+</div>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No filaments match.</div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(async () => {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  const count = document.getElementById('count');
+  const search = document.querySelector('.search');
+  const toast = document.getElementById('toast');
+
+  const res = await fetch('filaments.json');
+  const data = await res.json();
+
+  const materials = [...new Set(data.map(f => f.material).filter(Boolean))].sort();
+  let activeMaterial = null;
+  let activeProduct = null;
+
+  function swatchStyle(hexes) {
+    const colors = hexes.map(h => '#' + h);
+    if (colors.length === 1) return `background:${colors[0]}`;
+    const stops = colors.map((c, i) => `${c} ${(i / colors.length) * 100}%, ${c} ${((i + 1) / colors.length) * 100}%`).join(', ');
+    return `background:linear-gradient(135deg, ${stops})`;
+  }
+
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => toast.classList.remove('show'), 1400);
+  }
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    const filtered = data.filter(f => {
+      if (activeMaterial && f.material !== activeMaterial) return false;
+      if (activeProduct && f.product !== activeProduct) return false;
+      if (!q) return true;
+      return (
+        f.id.toLowerCase().includes(q) ||
+        (f.sku || '').toLowerCase().includes(q) ||
+        (f.product || '').toLowerCase().includes(q) ||
+        (f.color_name || '').toLowerCase().includes(q) ||
+        (f.material || '').toLowerCase().includes(q)
+      );
+    });
+
+    count.textContent = `${filtered.length} of ${data.length}`;
+    empty.hidden = filtered.length !== 0;
+
+    grid.replaceChildren(...filtered.map(f => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const temp = (f.temp_min != null && f.temp_max != null) ? `${f.temp_min}–${f.temp_max}°C` : '';
+
+      card.innerHTML = `
+        <div class="swatch" style="${swatchStyle(f.color_hexes || [f.color_hex])}">
+          <span class="id" title="Click to copy">${f.id}</span>
+        </div>
+        <div class="body">
+          <div class="name">${escape(f.color_name || '—')}</div>
+          <div class="product">${escape(f.product || f.material || '')}</div>
+          <div class="meta">
+            <span class="sku">${f.sku ? 'SKU ' + f.sku : ''}</span>
+            <span>${temp}</span>
+          </div>
+        </div>
+      `;
+
+      card.querySelector('.id').addEventListener('click', () => {
+        navigator.clipboard.writeText(f.id);
+        showToast(`Copied ${f.id}`);
+      });
+
+      return card;
+    }));
+  }
+
+  function escape(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  const materialChips = document.getElementById('material-chips');
+  const productChips = document.getElementById('product-chips');
+
+  function makeChip(label, isActive, onClick) {
+    const chip = document.createElement('button');
+    chip.className = 'chip' + (isActive ? ' active' : '');
+    chip.textContent = label;
+    chip.addEventListener('click', onClick);
+    return chip;
+  }
+
+  const productRow = document.getElementById('product-row');
+
+  function renderProductChips() {
+    if (!activeMaterial) {
+      activeProduct = null;
+      productRow.hidden = true;
+      return;
+    }
+
+    const products = [...new Set(
+      data.filter(f => f.material === activeMaterial).map(f => f.product).filter(Boolean)
+    )].sort();
+
+    if (products.length <= 1) {
+      activeProduct = null;
+      productRow.hidden = true;
+      return;
+    }
+    productRow.hidden = false;
+
+    if (activeProduct && !products.includes(activeProduct)) {
+      activeProduct = null;
+    }
+
+    productChips.replaceChildren(
+      makeChip('All', activeProduct === null, () => {
+        activeProduct = null;
+        renderProductChips();
+        render();
+      }),
+      ...products.map(p => makeChip(p, activeProduct === p, () => {
+        activeProduct = p;
+        renderProductChips();
+        render();
+      }))
+    );
+  }
+
+  function renderMaterialChips() {
+    materialChips.replaceChildren(
+      makeChip('All', activeMaterial === null, () => {
+        activeMaterial = null;
+        renderMaterialChips();
+        renderProductChips();
+        render();
+      }),
+      ...materials.map(m => makeChip(m, activeMaterial === m, () => {
+        activeMaterial = m;
+        renderMaterialChips();
+        renderProductChips();
+        render();
+      }))
+    );
+  }
+
+  renderMaterialChips();
+  renderProductChips();
+  search.addEventListener('input', render);
+  render();
+})();
+</script>
+</body>
+</html>

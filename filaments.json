@@ -3147,7 +3147,7 @@
   {
     "id": "A50-B6",
     "sku": "14601",
-    "material": "PLA",
+    "material": "PLA-CF",
     "product": "PLA-CF",
     "color_name": "Royal Blue",
     "color_hex": "2842ADFF",
@@ -3538,7 +3538,7 @@
   {
     "id": "B50-A0",
     "sku": "41300",
-    "material": "ABS",
+    "material": "ABS-GF",
     "product": "ABS-GF",
     "color_name": "Orange",
     "color_hex": "F48438FF",
@@ -3572,7 +3572,7 @@
   {
     "id": "B50-R0",
     "sku": "41200",
-    "material": "ABS",
+    "material": "ABS-GF",
     "product": "ABS-GF",
     "color_name": "Red",
     "color_hex": "E83100FF",
@@ -3589,7 +3589,7 @@
   {
     "id": "B50-W0",
     "sku": "41100",
-    "material": "ABS",
+    "material": "ABS-GF",
     "product": "ABS-GF",
     "color_name": "White",
     "color_hex": "FFFFFFFF",

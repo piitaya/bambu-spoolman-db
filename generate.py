@@ -408,6 +408,13 @@ def main():
         for hex8 in info.get("cols", []):
             bambu_by_hex.setdefault(hex8, []).append((sku, info))
 
+    # Product -> block 2 material, built from tag dumps. Used to fill README-only stubs
+    # so e.g. an ABS-GF variant without a dump still gets material="ABS-GF" instead of "ABS".
+    product_to_material: dict[str, str] = {}
+    for e in dump_entries:
+        if e.get("product") and e.get("material"):
+            product_to_material.setdefault(e["product"], e["material"])
+
     # Merge: dump entries primary; add README-only variants as stubs
     dump_ids = {e["id"] for e in dump_entries}
     entries = list(dump_entries)
@@ -415,7 +422,7 @@ def main():
         if e["variant_id"] not in dump_ids:
             entries.append({
                 "id": e["variant_id"],
-                "material": None,
+                "material": product_to_material.get(e["section"]),
                 "product": e["section"],
                 "color_hex": None,
                 "color_hexes": [],
@@ -536,7 +543,7 @@ def main():
         results.append({
             "id": vid,
             "sku": sku,
-            "material": m.get("material") or _infer_material(product),
+            "material": m.get("material") or product_to_material.get(product) or _infer_material(product),
             "product": product,
             "color_name": color_name,
             "color_hex": color_hex,

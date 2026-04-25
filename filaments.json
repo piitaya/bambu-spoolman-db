@@ -1677,6 +1677,23 @@
     }
   },
   {
+    "id": "A05-P3",
+    "sku": "13202",
+    "material": "PLA",
+    "product": "PLA Silk",
+    "color_name": "Pink",
+    "color_hex": "EEB1C1FF",
+    "color_hexes": [
+      "EEB1C1FF"
+    ],
+    "weight": 1000,
+    "temp_min": 210,
+    "temp_max": 230,
+    "integrations": {
+      "spoolman": null
+    }
+  },
+  {
     "id": "A05-P5",
     "sku": "13701",
     "material": "PLA",
@@ -1793,6 +1810,23 @@
     "color_hexes": [
       "00629BFF",
       "000000FF"
+    ],
+    "weight": 1000,
+    "temp_min": 210,
+    "temp_max": 230,
+    "integrations": {
+      "spoolman": null
+    }
+  },
+  {
+    "id": "A05-Y4",
+    "sku": "13401",
+    "material": "PLA",
+    "product": "PLA Silk",
+    "color_name": "Gold",
+    "color_hex": "E5B03DFF",
+    "color_hexes": [
+      "E5B03DFF"
     ],
     "weight": 1000,
     "temp_min": 210,

@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "A05-P3",
+    "product": "PLA Silk",
+    "color_hex": "EEB1C1FF"
+  },
+  {
+    "id": "A05-Y4",
+    "product": "PLA Silk",
+    "color_hex": "E5B03DFF"
+  }
+]

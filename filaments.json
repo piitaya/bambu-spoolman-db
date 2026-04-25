@@ -323,6 +323,23 @@
     }
   },
   {
+    "id": "A00-G0",
+    "sku": "10500",
+    "material": "PLA",
+    "product": "PLA Basic",
+    "color_name": "Green",
+    "color_hex": "164B35FF",
+    "color_hexes": [
+      "164B35FF"
+    ],
+    "weight": 1000,
+    "temp_min": 190,
+    "temp_max": 230,
+    "integrations": {
+      "spoolman": null
+    }
+  },
+  {
     "id": "A00-G02",
     "sku": "10502",
     "material": "PLA",

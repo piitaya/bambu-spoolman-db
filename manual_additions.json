@@ -1,12 +1,26 @@
 [
   {
+    "id": "A00-G0",
+    "product": "PLA Basic",
+    "color_hex": "164B35FF",
+    "weight": 1000,
+    "temp_min": 190,
+    "temp_max": 230
+  },
+  {
     "id": "A05-P3",
     "product": "PLA Silk",
-    "color_hex": "EEB1C1FF"
+    "color_hex": "EEB1C1FF",
+    "weight": 1000,
+    "temp_min": 210,
+    "temp_max": 230
   },
   {
     "id": "A05-Y4",
     "product": "PLA Silk",
-    "color_hex": "E5B03DFF"
+    "color_hex": "E5B03DFF",
+    "weight": 1000,
+    "temp_min": 210,
+    "temp_max": 230
   }
 ]
